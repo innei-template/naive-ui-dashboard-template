@@ -1,0 +1,100 @@
+.root {
+  --w: 250px;
+}
+
+.root.collapse {
+  --w: 100px;
+
+  & .item-title {
+    @apply absolute opacity-0;
+  }
+
+  & .has-child {
+    @apply pl-0;
+  }
+}
+
+@screen phone {
+  .root.collapse {
+    --w: 50px;
+  }
+}
+
+.collapse-button {
+  @apply absolute right-0 mr-4 top-0 bottom-0 text-lg;
+}
+
+.root.collapse .collapse-button {
+  @apply relative py-6 w-full flex items-center justify-center;
+}
+.root {
+  .sidebar {
+    width: var(--w);
+    transition: width 0.5s;
+
+    @apply bg-gray-100;
+  }
+
+  .items {
+    font-family: 'Josefin Sans';
+
+    @apply pl-4;
+
+    @screen phone {
+      & {
+        @apply px-0;
+      }
+    }
+  }
+
+  .active,
+  .expand {
+    @apply bg-primary-deep;
+
+    border-radius: 24px 0 0 24px;
+  }
+
+  .item {
+    /* @apply transition-all duration-1000; */
+
+    transition: all 0.5s;
+
+    @apply pl-4;
+
+    @screen phone {
+      & {
+        @apply pl-0;
+      }
+    }
+  }
+
+  .item:hover {
+    @apply bg-primary-suppl;
+
+    border-radius: 24px 0 0 24px;
+  }
+
+  .has-child {
+    transition: max-height 0.5s;
+  }
+
+  .sidebar {
+    background: linear-gradient(
+      to bottom,
+      theme('colors.primary.default'),
+      theme('colors.primary.shallow')
+    );
+  }
+
+  .menu {
+    height: 80vh;
+
+    @apply bg-transparent text-white;
+
+    @screen phone {
+      & {
+        @apply overflow-auto;
+      }
+    }
+  }
+}

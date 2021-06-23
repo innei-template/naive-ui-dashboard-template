@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body,
+html {
+  margin: 0;
+  font-size: 14px;
+  padding: 0;
+  background-color: #fafafa;
+  font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+
+  @apply overflow-hidden;
+}
+
+a {
+  @apply text-primary-default;
+  text-decoration: none;
+}
+
+a:hover {
+  @apply text-primary-shallow;
+}
+
+button:focus,
+button {
+  outline: unset;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary-shallow;
+
+  background-clip: padding-box;
+  border: 3px solid transparent;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-corner {
+  background: var(--light-bg);
+}
+
+.n-scrollbar-rail {
+  @apply z-100;
+}
+
+.n-message {
+  @apply !rounded-full;
+}
+
+.n-notification-main-footer {
+  @apply !block;
+}

@@ -1,0 +1,48 @@
+{
+  "name": "admin-next",
+  "version": "2.0.0-beta.3",
+  "scripts": {
+    "dev": "TAILWIND_MODE=watch NODE_ENV=development vite --mode development",
+    "build": "NODE_ENV=production vite build --mode production",
+    "preview": "vite preview --port 2323",
+    "lint": "eslint \"src/**/*.{ts,tsx,js,json,vue}\" --fix",
+    "format": "prettier --write --loglevel warn \"src/**/*.{js,json,tsx,ts,css,scss,vue,html,md}\""
+  },
+  "dependencies": {
+    "@vicons/fa": "0.10.0",
+    "@vicons/ionicons5": "0.10.0",
+    "@vicons/utils": "0.1.4",
+    "camelcase-keys": "6.2.2",
+    "clsx": "1.1.1",
+    "date-fns": "^2.22.1",
+    "js-cookie": "2.2.1",
+    "lodash-es": "4.17.21",
+    "naive-ui": "2.12.2",
+    "qier-progress": "1.0.4",
+    "umi-request": "1.3.9",
+    "vue": "3.1.1",
+    "vue-router": "4.0.9"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "19.0.0",
+    "@types/lodash-es": "4.17.4",
+    "@typescript-eslint/eslint-plugin": "4.27.0",
+    "@typescript-eslint/parser": "4.27.0",
+    "@vitejs/plugin-vue": "1.2.3",
+    "@vitejs/plugin-vue-jsx": "1.1.5",
+    "@vue/compiler-sfc": "3.1.1",
+    "@vuedx/typescript-plugin-vue": "0.7.4",
+    "autoprefixer": "10.2.6",
+    "eslint": "7.29.0",
+    "eslint-plugin-vue": "7.11.1",
+    "postcss": "8.3.5",
+    "postcss-nested": "5.0.5",
+    "prettier": "2.3.1",
+    "rollup-plugin-visualizer": "5.5.0",
+    "tailwindcss": "2.2.2",
+    "typescript": "4.3.4",
+    "vite": "2.3.8",
+    "vite-tsconfig-paths": "3.3.13",
+    "vue-eslint-parser": "7.6.0"
+  }
+}

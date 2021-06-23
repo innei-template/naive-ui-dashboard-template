@@ -1,0 +1,14 @@
+.root {
+  .content {
+    left: var(--w);
+
+    @apply transition-all duration-500;
+    @apply fixed inset-0 overflow-hidden;
+  }
+
+  @screen phone {
+    .content {
+      left: 60px !important;
+    }
+  }
+}

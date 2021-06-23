@@ -1,0 +1,24 @@
+.root {
+  @apply relative inline-flex  items-center;
+
+  line-height: 1.4;
+  transition: border 0.5s;
+  box-sizing: border-box;
+
+  > span {
+    @apply whitespace-nowrap;
+  }
+
+  > input {
+    box-sizing: border-box;
+
+    @apply bg-transparent w-full;
+    outline: 0;
+    display: inline-block;
+    border-bottom: 1px solid currentColor;
+    &:hover,
+    &:focus {
+      border-bottom: 1px solid theme(colors.primary.default);
+    }
+  }
+}
