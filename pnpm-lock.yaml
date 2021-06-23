@@ -15,7 +15,7 @@ specifiers:
   autoprefixer: 10.2.6
   camelcase-keys: 6.2.2
   clsx: 1.1.1
-  date-fns: ^2.22.1
+  date-fns: 2.22.1
   eslint: 7.29.0
   eslint-plugin-vue: 7.11.1
   js-cookie: 2.2.1
