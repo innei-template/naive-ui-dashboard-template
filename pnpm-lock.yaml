@@ -9,7 +9,7 @@ specifiers:
   '@vicons/ionicons5': 0.10.0
   '@vicons/utils': 0.1.4
   '@vitejs/plugin-vue': 1.2.3
-  '@vitejs/plugin-vue-jsx': 1.1.5
+  '@vitejs/plugin-vue-jsx': 1.1.6
   '@vue/compiler-sfc': 3.1.2
   '@vuedx/typescript-plugin-vue': 0.7.4
   autoprefixer: 10.2.6
@@ -56,7 +56,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 4.27.0_b7b1357bbf6753e7455d6ef3191d413d
   '@typescript-eslint/parser': 4.27.0_eslint@7.29.0+typescript@4.3.4
   '@vitejs/plugin-vue': 1.2.3_@vue+compiler-sfc@3.1.2
-  '@vitejs/plugin-vue-jsx': 1.1.5
+  '@vitejs/plugin-vue-jsx': 1.1.6
   '@vue/compiler-sfc': 3.1.2_vue@3.1.2
   '@vuedx/typescript-plugin-vue': 0.7.4
   autoprefixer: 10.2.6_postcss@8.3.5
@@ -847,8 +847,8 @@ packages:
       vue: 3.1.2
     dev: false
 
-  /@vitejs/plugin-vue-jsx/1.1.5:
-    resolution: {integrity: sha512-YujG7IgbZR8zWGY/hZFxYKrAUdO+9OV4t3pqqQrvbtP/ESwvTY8vb0Zpw1VMO8zLWNGqf8jSbjBaCjN49diplw==}
+  /@vitejs/plugin-vue-jsx/1.1.6:
+    resolution: {integrity: sha512-1vKGALnBFt7hUIOgkC4ZAhTRgENpSgGBsdltJn3fPNcqrbrvR/HaRS5VThjCCoN69d0d+VlDXOTlWcfUpE3pfQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@babel/core': 7.14.6
