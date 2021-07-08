@@ -25,7 +25,7 @@ specifiers:
   postcss-nested: 5.0.5
   prettier: 2.3.1
   qier-progress: 1.0.4
-  rollup-plugin-visualizer: 5.5.0
+  rollup-plugin-visualizer: 5.5.2
   tailwindcss: 2.2.4
   typescript: 4.3.4
   umi-request: 1.3.9
@@ -65,7 +65,7 @@ devDependencies:
   postcss: 8.3.5
   postcss-nested: 5.0.5_postcss@8.3.5
   prettier: 2.3.1
-  rollup-plugin-visualizer: 5.5.0
+  rollup-plugin-visualizer: 5.5.2
   tailwindcss: 2.2.4_72be89de93206f86f2d67dd5290ec14d
   typescript: 4.3.4
   vite: 2.3.8
@@ -2743,8 +2743,8 @@ packages:
       glob: 7.1.7
     dev: true
 
-  /rollup-plugin-visualizer/5.5.0:
-    resolution: {integrity: sha512-QUd0ZHGYn6rgogS+yzG08AvMk9J4kR1lO1cpLJCIAQhbyIGSBdqCddKWtxDsdmsxhkY/GCGw8CvoSB3MwMQOIQ==}
+  /rollup-plugin-visualizer/5.5.2:
+    resolution: {integrity: sha512-sh+P9KhuWTzeStyRA5yNZpoEFGuj5Ph34JLMa9+muhU8CneFf9L0XE4fmAwAojJLWp//uLUEyytBPSCdZEg5AA==}
     engines: {node: '>=10.16'}
     hasBin: true
     peerDependencies:
