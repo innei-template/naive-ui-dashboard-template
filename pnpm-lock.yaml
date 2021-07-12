@@ -12,7 +12,7 @@ specifiers:
   '@vitejs/plugin-vue-jsx': 1.1.5
   '@vue/compiler-sfc': 3.1.2
   '@vuedx/typescript-plugin-vue': 0.7.4
-  autoprefixer: 10.2.6
+  autoprefixer: 10.3.1
   camelcase-keys: 6.2.2
   clsx: 1.1.1
   date-fns: 2.22.1
@@ -59,14 +59,14 @@ devDependencies:
   '@vitejs/plugin-vue-jsx': 1.1.5
   '@vue/compiler-sfc': 3.1.2_vue@3.1.2
   '@vuedx/typescript-plugin-vue': 0.7.4
-  autoprefixer: 10.2.6_postcss@8.3.5
+  autoprefixer: 10.3.1_postcss@8.3.5
   eslint: 7.29.0
   eslint-plugin-vue: 7.11.1_eslint@7.29.0
   postcss: 8.3.5
   postcss-nested: 5.0.5_postcss@8.3.5
   prettier: 2.3.1
   rollup-plugin-visualizer: 5.5.0
-  tailwindcss: 2.2.4_72be89de93206f86f2d67dd5290ec14d
+  tailwindcss: 2.2.4_d0cbdb03a6e75c60c9760f17c403e6d9
   typescript: 4.3.4
   vite: 2.3.8
   vite-tsconfig-paths: 3.3.13_vite@2.3.8
@@ -1182,15 +1182,15 @@ packages:
     resolution: {integrity: sha512-8eLCg00W9pIRZSB781UUX/H6Oskmm8xloZfr09lz5bikRpBVDlJ3hRVuxxP1SxcwsEYfJ4IU8Q19Y8/893r3rQ==}
     dev: false
 
-  /autoprefixer/10.2.6_postcss@8.3.5:
-    resolution: {integrity: sha512-8lChSmdU6dCNMCQopIf4Pe5kipkAGj/fvTMslCsih0uHpOrXOPUEVOmYMMqmw3cekQkSD7EhIeuYl5y0BLdKqg==}
+  /autoprefixer/10.3.1_postcss@8.3.5:
+    resolution: {integrity: sha512-L8AmtKzdiRyYg7BUXJTzigmhbQRCXFKz6SA1Lqo0+AR2FBbQ4aTAPFSDlOutnFkjhiz8my4agGXog1xlMjPJ6A==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.16.6
-      caniuse-lite: 1.0.30001239
+      caniuse-lite: 1.0.30001243
       colorette: 1.2.2
       fraction.js: 4.1.1
       normalize-range: 0.1.2
@@ -1234,7 +1234,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001239
+      caniuse-lite: 1.0.30001243
       colorette: 1.2.2
       electron-to-chromium: 1.3.755
       escalade: 3.1.1
@@ -1282,8 +1282,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001239:
-    resolution: {integrity: sha512-cyBkXJDMeI4wthy8xJ2FvDU6+0dtcZSJW3voUF8+e9f1bBeuvyZfc3PNbkOETyhbR+dGCPzn9E7MA3iwzusOhQ==}
+  /caniuse-lite/1.0.30001243:
+    resolution: {integrity: sha512-vNxw9mkTBtkmLFnJRv/2rhs1yufpDfCkBZexG3Y0xdOH2Z/eE/85E4Dl5j1YUN34nZVsSp6vVRFQRrez9wJMRA==}
     dev: true
 
   /chalk/2.4.2:
@@ -2923,7 +2923,7 @@ packages:
       strip-ansi: 6.0.0
     dev: true
 
-  /tailwindcss/2.2.4_72be89de93206f86f2d67dd5290ec14d:
+  /tailwindcss/2.2.4_d0cbdb03a6e75c60c9760f17c403e6d9:
     resolution: {integrity: sha512-OdBCPgazNNsknSP+JfrPzkay9aqKjhKtFhbhgxHgvEFdHy/GuRPo2SCJ4w1SFTN8H6FPI4m6qD/Jj20NWY1GkA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -2933,7 +2933,7 @@ packages:
     dependencies:
       '@fullhuman/postcss-purgecss': 4.0.3_postcss@8.3.5
       arg: 5.0.0
-      autoprefixer: 10.2.6_postcss@8.3.5
+      autoprefixer: 10.3.1_postcss@8.3.5
       bytes: 3.1.0
       chalk: 4.1.1
       chokidar: 3.5.2
