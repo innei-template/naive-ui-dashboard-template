@@ -20,7 +20,7 @@ specifiers:
   eslint-plugin-vue: 7.11.1
   js-cookie: 2.2.1
   lodash-es: 4.17.21
-  naive-ui: 2.12.2
+  naive-ui: 2.15.5
   postcss: 8.3.5
   postcss-nested: 5.0.5
   prettier: 2.3.1
@@ -44,7 +44,7 @@ dependencies:
   date-fns: 2.22.1
   js-cookie: 2.2.1
   lodash-es: 4.17.21
-  naive-ui: 2.12.2_vue@3.1.2
+  naive-ui: 2.15.5_vue@3.1.2
   qier-progress: 1.0.4
   umi-request: 1.3.9
   vue: 3.1.2
@@ -2319,8 +2319,8 @@ packages:
       thenify-all: 1.6.0
     dev: true
 
-  /naive-ui/2.12.2_vue@3.1.2:
-    resolution: {integrity: sha512-G6LS7o+KzlWYBB8XPewuGc4PHTOkEspTfdjZJFk40K+MUva7I1N3sejwVER4bP6QR/CbKJ8SAoJWgp+iG3Zt0w==}
+  /naive-ui/2.15.5_vue@3.1.2:
+    resolution: {integrity: sha512-ncNlvaVFaqdZrVFe8IAxqyFpP32k+l8bGfxW4PKCDP1huWG1AgXI2EKfO18Tu7Er6A/ENi68CStYA3ZnxEWFpw==}
     peerDependencies:
       vue: ^3.0.0
     dependencies:
@@ -2336,12 +2336,12 @@ packages:
       lodash: 4.17.21
       lodash-es: 4.17.21
       seemly: 0.3.1
-      treemate: 0.2.11
+      treemate: 0.2.12
       vdirs: 0.1.4_vue@3.1.2
       vfonts: 0.1.0
       vooks: 0.2.6_vue@3.1.2
       vue: 3.1.2
-      vueuc: 0.4.8_1223fc83b5bbdbb22da904ea1c482438
+      vueuc: 0.4.9_1223fc83b5bbdbb22da904ea1c482438
     dev: false
 
   /nanoid/3.1.23:
@@ -3003,8 +3003,8 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /treemate/0.2.11:
-    resolution: {integrity: sha512-3/wjLLBbLYKZUI311pERMnM/yLHCInD3lfETWTeoHDNwnZI2ApVqgVCJnjEWC10Ugd02ASKlBHJeKSDUmLYWng==}
+  /treemate/0.2.12:
+    resolution: {integrity: sha512-li5ZxaT7BtBIEnT7eUO3mk4BdefANPUKjCGnTciFp5e5UDy3+07HLvWelKxuIz1jCz+6r5IPoP8P/5+8Xz9Z7w==}
     dev: false
 
   /tsconfig-paths/3.9.0:
@@ -3176,8 +3176,8 @@ packages:
       '@vue/shared': 3.1.2
     dev: false
 
-  /vueuc/0.4.8_1223fc83b5bbdbb22da904ea1c482438:
-    resolution: {integrity: sha512-IXkShYfeKpYdcNl4hyviyrvovMgc7q452MuY+yQDI+1Hp05YfNz6tK+zpZ7FSXuTuyihMvileLUY3Ya6u8Hydw==}
+  /vueuc/0.4.9_1223fc83b5bbdbb22da904ea1c482438:
+    resolution: {integrity: sha512-IlM2qw1wjsiylGOzjKvuR4C8g7rzQQ4gIa3TxoBlWvs9/mYHZEHDHnq8S6MRrP8AawdQcaOPyFtzttbAR8G+AA==}
     peerDependencies:
       '@css-render/vue3-ssr': ^0.15.3
       vue: ^3.0.11
