@@ -17,7 +17,7 @@ specifiers:
   clsx: 1.1.1
   date-fns: 2.22.1
   eslint: 7.31.0
-  eslint-plugin-vue: 7.14.0
+  eslint-plugin-vue: 7.15.0
   js-cookie: 2.2.1
   lodash-es: 4.17.21
   naive-ui: 2.15.11
@@ -61,7 +61,7 @@ devDependencies:
   '@vuedx/typescript-plugin-vue': 0.7.4
   autoprefixer: 10.3.1_postcss@8.3.6
   eslint: 7.31.0
-  eslint-plugin-vue: 7.14.0_eslint@7.31.0
+  eslint-plugin-vue: 7.15.0_eslint@7.31.0
   postcss: 8.3.6
   postcss-nested: 5.0.6_postcss@8.3.6
   prettier: 2.3.2
@@ -1623,8 +1623,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-vue/7.14.0_eslint@7.31.0:
-    resolution: {integrity: sha512-IW5A2Td0wEWjFGaGVEO24JNXa8cVFzAQTXrYv/Vu3zyDVS9sjwOpZY0iqub7FOkT2AK3Imtw4U4wg48pP9oWww==}
+  /eslint-plugin-vue/7.15.0_eslint@7.31.0:
+    resolution: {integrity: sha512-br58VTAT8JB4Qe7XJVN7fNBqQgclE+hcsievoyQyGtCZsYprFMQYu+c9yHX9XkP55cMnSVZpW5fRgy3n/wZskA==}
     engines: {node: '>=8.10'}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0
@@ -1633,7 +1633,7 @@ packages:
       eslint-utils: 2.1.0
       natural-compare: 1.4.0
       semver: 6.3.0
-      vue-eslint-parser: 7.9.0_eslint@7.31.0
+      vue-eslint-parser: 7.10.0_eslint@7.31.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3198,8 +3198,8 @@ packages:
     resolution: {integrity: sha512-T8OB4TwnL4v/JfS4O5FnII2TmHPgoEoLPmtLytm0MFx7QKoCd0Iraqm07AkVS7pxk4bd/AiK7AcEgJQr3sJ2zQ==}
     dev: true
 
-  /vue-eslint-parser/7.8.0_eslint@7.31.0:
-    resolution: {integrity: sha512-ehmmrLZNYLUoKayvVW8l8HyPQIfuYZHiJoQLRP3dapDlTU7bGs4tqIKVGdAEpMuXS/b4R/PImCt7Tkj4UhX1SQ==}
+  /vue-eslint-parser/7.10.0_eslint@7.31.0:
+    resolution: {integrity: sha512-7tc/ewS9Vq9Bn741pvpg8op2fWJPH3k32aL+jcIcWGCTzh/zXSdh7pZ5FV3W2aJancP9+ftPAv292zY5T5IPCg==}
     engines: {node: '>=8.10'}
     peerDependencies:
       eslint: '>=5.0.0'
@@ -3216,8 +3216,8 @@ packages:
       - supports-color
     dev: true
 
-  /vue-eslint-parser/7.9.0_eslint@7.31.0:
-    resolution: {integrity: sha512-QBlhZ5LteDRVy2dISfQhNEmmcqph+GTaD4SH41bYzXcVHFPJ9p34zCG6QAqOZVa8PKaVgbomFnoZpGJRZi14vg==}
+  /vue-eslint-parser/7.8.0_eslint@7.31.0:
+    resolution: {integrity: sha512-ehmmrLZNYLUoKayvVW8l8HyPQIfuYZHiJoQLRP3dapDlTU7bGs4tqIKVGdAEpMuXS/b4R/PImCt7Tkj4UhX1SQ==}
     engines: {node: '>=8.10'}
     peerDependencies:
       eslint: '>=5.0.0'
