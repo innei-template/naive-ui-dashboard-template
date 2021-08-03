@@ -34,7 +34,7 @@
     "@vuedx/typescript-plugin-vue": "0.7.4",
     "autoprefixer": "10.3.1",
     "eslint": "7.32.0",
-    "eslint-plugin-vue": "7.15.0",
+    "eslint-plugin-vue": "7.15.1",
     "postcss": "8.3.6",
     "postcss-nested": "5.0.6",
     "prettier": "2.3.2",
