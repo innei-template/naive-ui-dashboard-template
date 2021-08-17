@@ -15,7 +15,7 @@ specifiers:
   autoprefixer: 10.3.1
   camelcase-keys: 7.0.0
   clsx: 1.1.1
-  date-fns: 2.22.1
+  date-fns: 2.23.0
   eslint: 7.32.0
   eslint-plugin-vue: 7.16.0
   js-cookie: 3.0.0
@@ -41,7 +41,7 @@ dependencies:
   '@vicons/utils': 0.1.4_vue@3.2.3
   camelcase-keys: 7.0.0
   clsx: 1.1.1
-  date-fns: 2.22.1
+  date-fns: 2.23.0
   js-cookie: 3.0.0
   lodash-es: 4.17.21
   naive-ui: 2.16.4_vue@3.2.3
@@ -1503,6 +1503,11 @@ packages:
 
   /date-fns/2.22.1:
     resolution: {integrity: sha512-yUFPQjrxEmIsMqlHhAhmxkuH769baF21Kk+nZwZGyrMoyLA+LugaQtC0+Tqf9CBUUULWwUJt6Q5ySI3LJDDCGg==}
+    engines: {node: '>=0.11'}
+    dev: false
+
+  /date-fns/2.23.0:
+    resolution: {integrity: sha512-5ycpauovVyAk0kXNZz6ZoB9AYMZB4DObse7P3BPWmyEjXNORTI8EJ6X0uaSAq4sCHzM1uajzrkr6HnsLQpxGXA==}
     engines: {node: '>=0.11'}
     dev: false
 

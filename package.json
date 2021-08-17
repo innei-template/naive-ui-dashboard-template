@@ -14,7 +14,7 @@
     "@vicons/utils": "0.1.4",
     "camelcase-keys": "7.0.0",
     "clsx": "1.1.1",
-    "date-fns": "2.22.1",
+    "date-fns": "2.23.0",
     "js-cookie": "3.0.0",
     "lodash-es": "4.17.21",
     "naive-ui": "2.16.4",
