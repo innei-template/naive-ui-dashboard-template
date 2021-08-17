@@ -11,7 +11,7 @@ import {
 import { RouterView } from 'vue-router'
 import { UIStore } from './stores/ui'
 import { UserStore } from './stores/user'
-import { useInjector, useProviders } from './utils/deps-injection'
+import { useInjector, useProviders } from './hooks/use-deps-injection'
 import { zhCN, dateZhCN } from 'naive-ui'
 import { configs } from 'configs'
 
