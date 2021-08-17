@@ -20,7 +20,7 @@
     "naive-ui": "2.16.4",
     "qier-progress": "1.0.4",
     "umi-request": "1.3.9",
-    "vue": "3.1.5",
+    "vue": "3.2.3",
     "vue-router": "4.0.11"
   },
   "devDependencies": {
@@ -30,7 +30,7 @@
     "@typescript-eslint/parser": "4.29.2",
     "@vitejs/plugin-vue": "1.2.5",
     "@vitejs/plugin-vue-jsx": "1.1.7",
-    "@vue/compiler-sfc": "3.1.5",
+    "@vue/compiler-sfc": "3.2.3",
     "@vuedx/typescript-plugin-vue": "0.7.4",
     "autoprefixer": "10.3.1",
     "eslint": "7.32.0",
@@ -43,6 +43,6 @@
     "typescript": "4.3.5",
     "vite": "2.4.4",
     "vite-tsconfig-paths": "3.3.13",
-    "vue-eslint-parser": "7.8.0"
+    "vue-eslint-parser": "7.10.0"
   }
 }
