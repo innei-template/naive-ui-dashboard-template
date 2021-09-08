@@ -25,7 +25,7 @@ specifiers:
   prettier: 2.3.2
   qier-progress: 1.0.4
   rollup-plugin-visualizer: 5.5.2
-  tailwindcss: 2.2.12
+  tailwindcss: 2.2.13
   typescript: 4.3.5
   umi-request: 1.3.9
   vite: 2.5.5
@@ -64,7 +64,7 @@ devDependencies:
   postcss-nested: 5.0.6_postcss@8.3.6
   prettier: 2.3.2
   rollup-plugin-visualizer: 5.5.2
-  tailwindcss: 2.2.12_4dc2d3db2b138fb8fa7d5c7b0c803aba
+  tailwindcss: 2.2.13_4dc2d3db2b138fb8fa7d5c7b0c803aba
   typescript: 4.3.5
   vite: 2.5.5
   vite-tsconfig-paths: 3.3.13_vite@2.5.5
@@ -2918,8 +2918,8 @@ packages:
       strip-ansi: 6.0.0
     dev: true
 
-  /tailwindcss/2.2.12_4dc2d3db2b138fb8fa7d5c7b0c803aba:
-    resolution: {integrity: sha512-xB21XYyad1ZBATFHfSqe8hDHK7G+QLgErEy754h5gG+BcvrBoCBknaXGCDq9CXj9Azqz4zby3adCyY88kYRg0g==}
+  /tailwindcss/2.2.13_4dc2d3db2b138fb8fa7d5c7b0c803aba:
+    resolution: {integrity: sha512-Y0ZTdTPDLg8KbRp56sCTWoVyBpCTXkk0dNNpPw4eixto+E26n6GEw57VsdzcSlXuah3cQdH+QSyt58WqKamo5A==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
