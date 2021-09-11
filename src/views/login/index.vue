@@ -7,7 +7,7 @@ import ParallaxButtonVue from '../../components/button/parallax-button.vue'
 import configs from '../../../configs.json'
 import { UserModel } from '../../models/user'
 import { UserStore } from '../../stores/user'
-import { useInjector } from '../../utils/deps-injection'
+import { useInjector } from '../../hooks/use-deps-injection'
 import { RESTManager } from '../../utils/rest'
 
 const bgUrl = configs.loginBg
