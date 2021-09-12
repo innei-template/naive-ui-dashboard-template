@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@types/lodash-es': 4.17.4
+  '@types/lodash-es': 4.17.5
   '@typescript-eslint/eslint-plugin': 4.31.0
   '@typescript-eslint/parser': 4.31.0
   '@vicons/fa': 0.11.0
@@ -50,7 +50,7 @@ dependencies:
   vue-router: 4.0.11_vue@3.2.11
 
 devDependencies:
-  '@types/lodash-es': 4.17.4
+  '@types/lodash-es': 4.17.5
   '@typescript-eslint/eslint-plugin': 4.31.0_d1dd20e6bac64435251dbfdf7965a8a7
   '@typescript-eslint/parser': 4.31.0_eslint@7.32.0+typescript@4.3.5
   '@vitejs/plugin-vue': 1.4.0_@vue+compiler-sfc@3.2.11
@@ -656,6 +656,13 @@ packages:
     resolution: {integrity: sha512-BBz79DCJbD2CVYZH67MBeHZRX++HF+5p8Mo5MzjZi64Wac39S3diedJYHZtScbRVf4DjZyN6LzA0SB0zy+HSSQ==}
     dependencies:
       '@types/lodash': 4.14.172
+    dev: false
+
+  /@types/lodash-es/4.17.5:
+    resolution: {integrity: sha512-SHBoI8/0aoMQWAgUHMQ599VM6ZiSKg8sh/0cFqqlQQMyY9uEplc0ULU5yQNzcvdR4ZKa0ey8+vFmahuRbOCT1A==}
+    dependencies:
+      '@types/lodash': 4.14.172
+    dev: true
 
   /@types/lodash/4.14.172:
     resolution: {integrity: sha512-/BHF5HAx3em7/KkzVKm3LrsD6HZAXuXO1AJZQ3cRRBZj4oHZDviWPYu0aEplAqDFNHZPW6d3G7KN+ONcCCC7pw==}
