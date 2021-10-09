@@ -29,7 +29,7 @@ specifiers:
   typescript: 4.3.5
   umi-request: 1.3.9
   vite: 2.5.10
-  vite-tsconfig-paths: 3.3.14
+  vite-tsconfig-paths: 3.3.15
   vue: 3.2.20
   vue-eslint-parser: 7.10.0
   vue-router: 4.0.11
@@ -67,7 +67,7 @@ devDependencies:
   tailwindcss: 2.2.16_96f83969316717847b3edf58a3f353f3
   typescript: 4.3.5
   vite: 2.5.10
-  vite-tsconfig-paths: 3.3.14_vite@2.5.10
+  vite-tsconfig-paths: 3.3.15_vite@2.5.10
   vue-eslint-parser: 7.10.0_eslint@7.32.0
 
 packages:
@@ -3018,8 +3018,8 @@ packages:
     resolution: {integrity: sha512-vQBcvntBlnAPonAkGNM8iJ9NxE3PucA+V2W95xiN75YJKxirLJvOws2kEyOEO45T4N+YTbQOCR2m77Y05pfVhQ==}
     dev: false
 
-  /vite-tsconfig-paths/3.3.14_vite@2.5.10:
-    resolution: {integrity: sha512-Z501YCOTTwBk+zDq0furrD+O+X/zawKIo8L3eE0GVSr700AvWAArnlUHOzoRJQw0fJLfd+61rD7jkT20Jh8gtA==}
+  /vite-tsconfig-paths/3.3.15_vite@2.5.10:
+    resolution: {integrity: sha512-SFPj6Y5HWB2Vy6eZZSA2VF06Lkg74kkTtMYfs47QJ2z8Fm3qFNggKHWsGDH/gesW56Ly9xmDGr1IBC8o77G+mw==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
