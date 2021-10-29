@@ -25,7 +25,7 @@ specifiers:
   prettier: 2.3.2
   qier-progress: 1.0.4
   rollup-plugin-visualizer: 5.5.2
-  tailwindcss: 2.2.17
+  tailwindcss: 2.2.19
   typescript: 4.3.5
   umi-request: 1.3.9
   vite: 2.5.10
@@ -64,7 +64,7 @@ devDependencies:
   postcss-nested: 5.0.6_postcss@8.3.11
   prettier: 2.3.2
   rollup-plugin-visualizer: 5.5.2
-  tailwindcss: 2.2.17_fa866e6aa6eb85ed70431566fb699b34
+  tailwindcss: 2.2.19_fa866e6aa6eb85ed70431566fb699b34
   typescript: 4.3.5
   vite: 2.5.10
   vite-tsconfig-paths: 3.3.17_vite@2.5.10
@@ -2061,13 +2061,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /is-glob/4.0.1:
-    resolution: {integrity: sha512-5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==}
-    engines: {node: '>=0.10.0'}
-    dependencies:
-      is-extglob: 2.1.1
-    dev: true
-
   /is-glob/4.0.3:
     resolution: {integrity: sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==}
     engines: {node: '>=0.10.0'}
@@ -2801,8 +2794,8 @@ packages:
     resolution: {integrity: sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q=}
     dev: true
 
-  /tailwindcss/2.2.17_fa866e6aa6eb85ed70431566fb699b34:
-    resolution: {integrity: sha512-WgRpn+Pxn7eWqlruxnxEbL9ByVRWi3iC10z4b6dW0zSdnkPVC4hPMSWLQkkW8GCyBIv/vbJ0bxIi9dVrl4CfoA==}
+  /tailwindcss/2.2.19_fa866e6aa6eb85ed70431566fb699b34:
+    resolution: {integrity: sha512-6Ui7JSVtXadtTUo2NtkBBacobzWiQYVjYW0ZnKaP9S1ZCKQ0w7KVNz+YSDI/j7O7KCMHbOkz94ZMQhbT9pOqjw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -2824,7 +2817,7 @@ packages:
       glob-parent: 6.0.1
       html-tags: 3.1.0
       is-color-stop: 1.1.0
-      is-glob: 4.0.1
+      is-glob: 4.0.3
       lodash: 4.17.21
       lodash.topath: 4.5.2
       modern-normalize: 1.1.0
