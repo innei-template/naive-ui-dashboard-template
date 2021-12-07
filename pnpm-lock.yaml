@@ -7,7 +7,7 @@ specifiers:
   '@vicons/fa': 0.11.0
   '@vicons/ionicons5': 0.11.0
   '@vicons/utils': 0.1.4
-  '@vitejs/plugin-vue': 1.4.0
+  '@vitejs/plugin-vue': 1.10.2
   '@vitejs/plugin-vue-jsx': 1.1.8
   '@vue/compiler-sfc': 3.2.24
   '@vuedx/typescript-plugin-vue': 0.7.4
@@ -53,7 +53,7 @@ devDependencies:
   '@types/lodash-es': 4.17.5
   '@typescript-eslint/eslint-plugin': 5.6.0_268809ecd611a56eb9f9954254ea2571
   '@typescript-eslint/parser': 5.6.0_eslint@8.4.1+typescript@4.3.5
-  '@vitejs/plugin-vue': 1.4.0_@vue+compiler-sfc@3.2.24
+  '@vitejs/plugin-vue': 1.10.2_vite@2.5.10
   '@vitejs/plugin-vue-jsx': 1.1.8
   '@vue/compiler-sfc': 3.2.24
   '@vuedx/typescript-plugin-vue': 0.7.4
@@ -828,13 +828,13 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue/1.4.0_@vue+compiler-sfc@3.2.24:
-    resolution: {integrity: sha512-RkqfJHz9wdLKBp5Yi+kQL8BAljdrvPoccQm2PTZc/UcL4EjD11xsv2PPCduYx2oV1a/bpSKA3sD5sxOHFhz+LA==}
+  /@vitejs/plugin-vue/1.10.2_vite@2.5.10:
+    resolution: {integrity: sha512-/QJ0Z9qfhAFtKRY+r57ziY4BSbGUTGsPRMpB/Ron3QPwBZM4OZAZHdTa4a8PafCwU5DTatXG8TMDoP8z+oDqJw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
-      '@vue/compiler-sfc': ^3.0.8
+      vite: ^2.5.10
     dependencies:
-      '@vue/compiler-sfc': 3.2.24
+      vite: 2.5.10
     dev: true
 
   /@vue/babel-helper-vue-transform-on/1.0.2:
