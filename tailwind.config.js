@@ -2,10 +2,9 @@
 const { colors } = require('./configs.json')
 const { primary } = colors
 module.exports = {
-  purge: ['./src/**/*.html', './src/**/*.vue', './src/**/*.tsx'],
-  darkMode: false, // or 'media' or 'class'
+  content: ['./src/**/*.html', './src/**/*.vue', './src/**/*.tsx'],
+  darkMode: 'class', // or 'media' or 'class'
   mode: 'jit',
-  important: true, // important in prod is must be
 
   theme: {
     extend: {
