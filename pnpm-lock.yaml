@@ -12,7 +12,7 @@ specifiers:
   '@vue/compiler-sfc': 3.2.29
   '@vuedx/typescript-plugin-vue': 0.7.4
   autoprefixer: 10.4.2
-  camelcase-keys: 7.0.1
+  camelcase-keys: 7.0.2
   clsx: 1.1.1
   date-fns: 2.28.0
   eslint: 8.8.0
@@ -38,7 +38,7 @@ dependencies:
   '@vicons/fa': 0.11.0
   '@vicons/ionicons5': 0.11.0
   '@vicons/utils': 0.1.4_vue@3.2.29
-  camelcase-keys: 7.0.1
+  camelcase-keys: 7.0.2
   clsx: 1.1.1
   date-fns: 2.28.0
   js-cookie: 3.0.1
@@ -1287,25 +1287,19 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /camelcase-keys/7.0.1:
-    resolution: {integrity: sha512-P331lEls98pW8JLyodNWfzuz91BEDVA4VpW2/SwXnyv2K495tq1N777xzDbFgnEigfA7UIY0xa6PwR/H9jijjA==}
+  /camelcase-keys/7.0.2:
+    resolution: {integrity: sha512-Rjs1H+A9R+Ig+4E/9oyB66UC5Mj9Xq3N//vcLf2WzgdTi/3gUu3Z9KoqmlrEG4VuuLK8wJHofxzdQXz/knhiYg==}
     engines: {node: '>=12'}
     dependencies:
-      camelcase: 6.2.0
+      camelcase: 6.3.0
       map-obj: 4.2.1
       quick-lru: 5.1.1
       type-fest: 1.4.0
     dev: false
 
-  /camelcase/6.2.0:
-    resolution: {integrity: sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==}
-    engines: {node: '>=10'}
-    dev: false
-
   /camelcase/6.3.0:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
-    dev: true
 
   /caniuse-lite/1.0.30001304:
     resolution: {integrity: sha512-bdsfZd6K6ap87AGqSHJP/s1V+U6Z5lyrcbBu3ovbCCf8cSYpwTtGrCBObMpJqwxfTbLW6YTIdbb1jEeTelcpYQ==}
