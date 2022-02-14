@@ -8,7 +8,7 @@ specifiers:
   '@vicons/ionicons5': 0.11.0
   '@vicons/utils': 0.1.4
   '@vitejs/plugin-vue': 2.2.0
-  '@vitejs/plugin-vue-jsx': 1.3.5
+  '@vitejs/plugin-vue-jsx': 1.3.7
   '@vue/compiler-sfc': 3.2.31
   '@vuedx/typescript-plugin-vue': 0.7.4
   autoprefixer: 10.4.2
@@ -54,7 +54,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.11.0_15a231715447500ed5c06da64c8aef1c
   '@typescript-eslint/parser': 5.11.0_eslint@8.9.0+typescript@4.5.5
   '@vitejs/plugin-vue': 2.2.0_vite@2.7.13+vue@3.2.31
-  '@vitejs/plugin-vue-jsx': 1.3.5
+  '@vitejs/plugin-vue-jsx': 1.3.7
   '@vue/compiler-sfc': 3.2.31
   '@vuedx/typescript-plugin-vue': 0.7.4
   autoprefixer: 10.4.2_postcss@8.4.6
@@ -384,24 +384,6 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/traverse/7.16.10:
-    resolution: {integrity: sha512-yzuaYXoRJBGMlBhsMJoUW7G1UmSb/eXr/JHYM/MsOJgavJibLwASijW7oXBdw3NQ6T0bW7Ty5P/VarOs9cHmqw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/code-frame': 7.16.7
-      '@babel/generator': 7.17.0
-      '@babel/helper-environment-visitor': 7.16.7
-      '@babel/helper-function-name': 7.16.7
-      '@babel/helper-hoist-variables': 7.16.7
-      '@babel/helper-split-export-declaration': 7.16.7
-      '@babel/parser': 7.17.0
-      '@babel/types': 7.17.0
-      debug: 4.3.3
-      globals: 11.12.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@babel/traverse/7.17.0:
     resolution: {integrity: sha512-fpFIXvqD6kC7c7PUNnZ0Z8cQXlarCLtCUpt2S1Dx7PjoRtCFffvOkHHSom+m5HIxMZn5bIBVb71lhabcmjEsqg==}
     engines: {node: '>=6.9.0'}
@@ -425,14 +407,6 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.16.7
       lodash: 4.17.21
-      to-fast-properties: 2.0.0
-    dev: true
-
-  /@babel/types/7.16.8:
-    resolution: {integrity: sha512-smN2DQc5s4M7fntyjGtyIPbRJv6wW4rU/94fmYJ7PKQuZkC0qGMHXJbg6sNGt12JmVr4k5YaptI/XtiLJBnmIg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-validator-identifier': 7.16.7
       to-fast-properties: 2.0.0
     dev: true
 
@@ -858,8 +832,8 @@ packages:
       vue: 3.2.31
     dev: false
 
-  /@vitejs/plugin-vue-jsx/1.3.5:
-    resolution: {integrity: sha512-iBxRQS8SOGxI4c8/cucgumD9a1SO4ngn91YbluyWe1L2k0D7+3v64XbjZxXX2O964LubY8Tehl3ihr0W7f3+/g==}
+  /@vitejs/plugin-vue-jsx/1.3.7:
+    resolution: {integrity: sha512-UH+lI/TtBQg1YZeOTBN5yEYvSDNcL2ei8ZgE+0ESX2ULg2xV7rxzw1TB1eHZiMGXOSR8h5AWp/6F1hCcaq8VYA==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@babel/core': 7.17.2
@@ -893,8 +867,8 @@ packages:
       '@babel/helper-module-imports': 7.16.7
       '@babel/plugin-syntax-jsx': 7.16.7_@babel+core@7.17.2
       '@babel/template': 7.16.7
-      '@babel/traverse': 7.16.10
-      '@babel/types': 7.16.8
+      '@babel/traverse': 7.17.0
+      '@babel/types': 7.17.0
       '@vue/babel-helper-vue-transform-on': 1.0.2
       camelcase: 6.3.0
       html-tags: 3.1.0
