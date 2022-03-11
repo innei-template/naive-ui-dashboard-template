@@ -32,7 +32,7 @@ specifiers:
   vite-tsconfig-paths: 3.4.1
   vue: 3.2.31
   vue-eslint-parser: 8.2.0
-  vue-router: 4.0.13
+  vue-router: 4.0.14
 
 dependencies:
   '@vicons/fa': 0.11.0
@@ -47,7 +47,7 @@ dependencies:
   qier-progress: 1.0.4
   umi-request: 1.4.0
   vue: 3.2.31
-  vue-router: 4.0.13_vue@3.2.31
+  vue-router: 4.0.14_vue@3.2.31
 
 devDependencies:
   '@types/lodash-es': 4.17.6
@@ -3018,8 +3018,8 @@ packages:
       - supports-color
     dev: true
 
-  /vue-router/4.0.13_vue@3.2.31:
-    resolution: {integrity: sha512-LmXrC+BkDRLak+d5xTMgUYraT3Nj0H/vCbP+7usGvIl9Viqd1UP6AsP0i69pSbn9O0dXK/xCdp4yPw21HqV9Jw==}
+  /vue-router/4.0.14_vue@3.2.31:
+    resolution: {integrity: sha512-wAO6zF9zxA3u+7AkMPqw9LjoUCjSxfFvINQj3E/DceTt6uEz1XZLraDhdg2EYmvVwTBSGlLYsUw8bDmx0754Mw==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
