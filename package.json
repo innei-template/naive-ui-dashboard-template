@@ -9,7 +9,7 @@
     "format": "prettier --write --loglevel warn \"src/**/*.{js,json,tsx,ts,css,scss,vue,html,md}\""
   },
   "dependencies": {
-    "@vicons/fa": "0.11.0",
+    "@vicons/fa": "0.12.0",
     "@vicons/ionicons5": "0.11.0",
     "@vicons/utils": "0.1.4",
     "camelcase-keys": "7.0.2",

@@ -4,7 +4,7 @@ specifiers:
   '@types/lodash-es': 4.17.6
   '@typescript-eslint/eslint-plugin': 5.17.0
   '@typescript-eslint/parser': 5.17.0
-  '@vicons/fa': 0.11.0
+  '@vicons/fa': 0.12.0
   '@vicons/ionicons5': 0.11.0
   '@vicons/utils': 0.1.4
   '@vitejs/plugin-vue': 2.2.4
@@ -35,7 +35,7 @@ specifiers:
   vue-router: 4.0.14
 
 dependencies:
-  '@vicons/fa': 0.11.0
+  '@vicons/fa': 0.12.0
   '@vicons/ionicons5': 0.11.0
   '@vicons/utils': 0.1.4_vue@3.2.31
   camelcase-keys: 7.0.2
@@ -806,8 +806,8 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vicons/fa/0.11.0:
-    resolution: {integrity: sha512-Mlv4sxlghqAPu+RM+6w0/GIcsQFK/fx1syw1HkABS6MJRLwHOqbmImCYZQam7OMAYhZBs82YpY5cp2NFSgwkOA==}
+  /@vicons/fa/0.12.0:
+    resolution: {integrity: sha512-g2PIeJLsTHUjt6bK63LxqC0uYQB7iu+xViJOxvp1s8b9/akpXVPVWjDTTsP980/0KYyMMe4U7F/aUo7wY+MsXA==}
     dev: false
 
   /@vicons/ionicons5/0.11.0:
