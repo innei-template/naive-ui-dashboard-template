@@ -21,7 +21,7 @@ specifiers:
   lodash-es: 4.17.21
   naive-ui: 2.24.7
   postcss: 8.4.12
-  postcss-import: 14.0.2
+  postcss-import: 14.1.0
   prettier: 2.5.1
   qier-progress: 1.0.4
   rollup-plugin-visualizer: 5.5.4
@@ -61,7 +61,7 @@ devDependencies:
   eslint: 8.12.0
   eslint-plugin-vue: 8.5.0_eslint@8.12.0
   postcss: 8.4.12
-  postcss-import: 14.0.2_postcss@8.4.12
+  postcss-import: 14.1.0_postcss@8.4.12
   prettier: 2.5.1
   rollup-plugin-visualizer: 5.5.4
   tailwindcss: 3.0.23_autoprefixer@10.4.4
@@ -2458,8 +2458,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /postcss-import/14.0.2_postcss@8.4.12:
-    resolution: {integrity: sha512-BJ2pVK4KhUyMcqjuKs9RijV5tatNzNa73e/32aBVE/ejYPe37iH+6vAu9WvqUkB5OAYgLHzbSvzHnorybJCm9g==}
+  /postcss-import/14.1.0_postcss@8.4.12:
+    resolution: {integrity: sha512-flwI+Vgm4SElObFVPpTIT7SU7R3qk2L7PyduMcokiaVKuWv9d/U+Gm/QAd8NDLuykTWTkcrjOeD2Pp1rMeBTGw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       postcss: ^8.0.0
