@@ -5,7 +5,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.17.0
   '@typescript-eslint/parser': 5.17.0
   '@vicons/fa': 0.11.0
-  '@vicons/ionicons5': 0.11.0
+  '@vicons/ionicons5': 0.12.0
   '@vicons/utils': 0.1.4
   '@vitejs/plugin-vue': 2.2.4
   '@vitejs/plugin-vue-jsx': 1.3.9
@@ -36,7 +36,7 @@ specifiers:
 
 dependencies:
   '@vicons/fa': 0.11.0
-  '@vicons/ionicons5': 0.11.0
+  '@vicons/ionicons5': 0.12.0
   '@vicons/utils': 0.1.4_vue@3.2.31
   camelcase-keys: 7.0.2
   clsx: 1.1.1
@@ -810,8 +810,8 @@ packages:
     resolution: {integrity: sha512-Mlv4sxlghqAPu+RM+6w0/GIcsQFK/fx1syw1HkABS6MJRLwHOqbmImCYZQam7OMAYhZBs82YpY5cp2NFSgwkOA==}
     dev: false
 
-  /@vicons/ionicons5/0.11.0:
-    resolution: {integrity: sha512-4IWamqtXUsuCdlW6NQc2xyoJ+PUXGMwzSrppQbdVCYg0pjYld89jOfLOIkuTWq8o2XUa+Q1/78jzWBtXMTojNg==}
+  /@vicons/ionicons5/0.12.0:
+    resolution: {integrity: sha512-Iy1EUVRpX0WWxeu1VIReR1zsZLMc4fqpt223czR+Rpnrwu7pt46nbnC2ycO7ItI/uqDLJxnbcMC7FujKs9IfFA==}
     dev: false
 
   /@vicons/utils/0.1.4_vue@3.2.31:
