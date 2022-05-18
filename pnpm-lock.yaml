@@ -16,7 +16,7 @@ specifiers:
   clsx: 1.1.1
   date-fns: 2.28.0
   eslint: 8.15.0
-  eslint-plugin-vue: 9.0.0
+  eslint-plugin-vue: 9.0.1
   js-cookie: 3.0.1
   lodash-es: 4.17.21
   naive-ui: 2.28.4
@@ -59,7 +59,7 @@ devDependencies:
   '@vuedx/typescript-plugin-vue': 0.7.5
   autoprefixer: 10.4.7_postcss@8.4.13
   eslint: 8.15.0
-  eslint-plugin-vue: 9.0.0_eslint@8.15.0
+  eslint-plugin-vue: 9.0.1_eslint@8.15.0
   postcss: 8.4.13
   postcss-import: 14.1.0_postcss@8.4.13
   prettier: 2.6.2
@@ -1414,8 +1414,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-vue/9.0.0_eslint@8.15.0:
-    resolution: {integrity: sha512-UD1uQp8bzMi1b0/YS1ErmZY2/zJ7YVcVp40KniccN+yka0Agji/5X3SJ/gmrjFYXpEaXRebxa49uegZ4NamFHg==}
+  /eslint-plugin-vue/9.0.1_eslint@8.15.0:
+    resolution: {integrity: sha512-/w/9/vzz+4bSYtp5UqXgJ0CfycXTMtpp6lkz7/fMp0CcJxPWyRP6Pr88ihhrsNEcVt2ZweMupWRNYa+5Md41LQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
