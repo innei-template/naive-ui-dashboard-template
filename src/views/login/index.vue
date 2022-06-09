@@ -2,12 +2,12 @@
 import { useMessage } from 'naive-ui'
 import { defineComponent, onMounted, onUnmounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
+import { useStoreRef } from '../../hooks/use-store-ref'
+import configs from '../../../configs.json'
 import Avatar from '../../components/avatar/index.vue'
 import ParallaxButtonVue from '../../components/button/parallax-button.vue'
-import configs from '../../../configs.json'
 import { UserModel } from '../../models/user'
-import { UserStore } from '../../stores/user'
-import { useInjector } from '../../hooks/use-deps-injection'
+import { useUserStore } from '../../stores/user'
 import { RESTManager } from '../../utils/rest'
 
 const bgUrl = configs.loginBg
@@ -15,7 +15,7 @@ export const LoginView = defineComponent({
   components: { Avatar, ParallaxButtonVue },
   setup() {
     const loaded = ref(false)
-    const { user, updateToken } = useInjector(UserStore)
+    const { user, updateToken } = useStoreRef(useUserStore)
     const router = useRouter()
     const input = ref<HTMLInputElement>(null!)
     onMounted(() => {

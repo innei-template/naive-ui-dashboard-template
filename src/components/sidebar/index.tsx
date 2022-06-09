@@ -4,13 +4,15 @@ import clsx from 'clsx'
 import { computed, defineComponent, onMounted, PropType, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import configs from '../../../configs.json'
-import { UserStore } from '../../stores/user'
+
 import { buildMenus, MenuModel } from '../../utils/build-menus'
-import { useInjector } from '../../hooks/use-deps-injection'
+
 import { Avatar } from '../avatar'
 import styles from './index.module.css'
 import { NLayoutContent } from 'naive-ui'
-import { BASE_URL } from 'constants/env'
+import { API_URL } from 'constants/env'
+import { useStoreRef } from '~/hooks/use-store-ref'
+import { useUserStore } from '~/stores/user'
 export const Sidebar = defineComponent({
   name: 'SidebarComp',
   props: {
@@ -29,7 +31,7 @@ export const Sidebar = defineComponent({
   },
   setup(props) {
     const router = useRouter()
-    const { user } = useInjector(UserStore)
+    const { user } = useStoreRef(useUserStore)
     const route = computed(() => router.currentRoute.value)
     const menus = ref<MenuModel[]>([])
     onMounted(() => {
@@ -186,7 +188,7 @@ export const Sidebar = defineComponent({
               props.collapse ? 'px-8' : 'px-12',
             )}
             onClick={() => {
-              window.open(BASE_URL)
+              window.open(API_URL)
             }}
           >
             <Avatar src={user.value?.avatar} size={40} />
@@ -197,7 +199,7 @@ export const Sidebar = defineComponent({
           <button
             class="hidden phone:flex w-full items-center justify-center absolute bottom-0 pb-4"
             onClick={() => {
-              window.open(BASE_URL)
+              window.open(API_URL)
             }}
           >
             <Avatar src={user.value?.avatar} size={40} />

@@ -1,5 +1,6 @@
-import { defineComponent, onMounted } from 'vue'
+import { configs } from 'configs'
 import {
+  dateZhCN,
   GlobalThemeOverrides,
   NConfigProvider,
   NDialogProvider,
@@ -7,19 +8,20 @@ import {
   NNotificationProvider,
   useMessage,
   useNotification,
+  zhCN,
 } from 'naive-ui'
+import { defineComponent, onMounted } from 'vue'
 import { RouterView } from 'vue-router'
+
+import { useStoreRef } from './hooks/use-store-ref'
 import { UIStore } from './stores/ui'
-import { UserStore } from './stores/user'
-import { useInjector, useProviders } from './hooks/use-deps-injection'
-import { zhCN, dateZhCN } from 'naive-ui'
-import { configs } from 'configs'
+import { useUserStore } from './stores/user'
 
 const Root = defineComponent({
   name: 'Home',
 
   setup() {
-    const { fetchUser } = useInjector(UserStore)
+    const { fetchUser } = useStoreRef(useUserStore)
 
     onMounted(() => {
       window.message = useMessage()
@@ -45,8 +47,6 @@ const themeOverrides: GlobalThemeOverrides = {
 
 const App = defineComponent({
   setup() {
-    useProviders(UIStore, UserStore)
-
     return () => (
       <NConfigProvider
         locale={zhCN}

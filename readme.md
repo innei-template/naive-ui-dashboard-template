@@ -1,6 +1,11 @@
 # Naive-ui Dashboard Template
 
-This template is taken from [Mx Space Admin v2](https://github.com/mx-space/admin-vue3) and styled the same way.
+This template is taken from [Mx Space Admin v2](https://github.com/mx-space/mx-admin) and styled the same way.
+
+- WindiCSS
+- Vue 3 Tsx
+- PostCSS
+- Pinia
 
 # Usage
 

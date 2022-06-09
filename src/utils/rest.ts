@@ -1,11 +1,13 @@
 import camelcaseKeys from 'camelcase-keys'
+import { API_URL } from 'constants/env'
 import { isPlainObject } from 'lodash-es'
-import {
-  extend,
+import type {
   RequestMethod,
   RequestOptionsInit,
   RequestOptionsWithResponse,
 } from 'umi-request'
+import { extend } from 'umi-request'
+
 import { router } from '../router/router'
 import { getToken } from './auth'
 
@@ -14,26 +16,39 @@ class RESTManagerStatic {
   get instance() {
     return this._$$instance
   }
+
+  get endpoint() {
+    return API_URL
+  }
+
   constructor() {
     this._$$instance = extend({
-      // @ts-ignore
-      prefix: import.meta.env.VITE_APP_BASE_API,
+      prefix: this.endpoint,
       timeout: 10000,
       errorHandler: async (error) => {
         const Message = window.message
         if (error.request && !error.response) {
+          Message.error('网络错误')
+          return
         }
 
         if (error.response) {
-          if (process.env.NODE_ENV === 'development') {
+          if (import.meta.env.DEV) {
             console.log(error.response)
             console.dir(error.response)
           }
           try {
             const json = await error.response.json()
-            Message.error(json.message || json.msg)
+            const message = json.message
+            if (Array.isArray(message)) {
+              message.forEach((m) => {
+                Message.error(m)
+              })
+            } else {
+              Message.error(message)
+            }
           } catch (e) {
-            Message.error('出错了, 请查看控制台')
+            // Message.error('出错了, 请查看控制台')
             console.log(e)
           }
 
@@ -72,13 +87,27 @@ function buildRoute(manager: RESTManagerStatic): IRequestHandler {
     get(target: any, name: Method) {
       if (reflectors.includes(name)) return () => route.join('/')
       if (methods.includes(name)) {
-        return async (options: RequestOptionsWithResponse) => {
+        // @ts-ignore
+        return async (options: RequestOptionsWithResponse = {}) => {
           const res = await manager.request(name, route.join('/'), {
             ...options,
           })
 
+          const shouldTransformData = options.transform ?? true
+
           return Array.isArray(res) || isPlainObject(res)
-            ? camelcaseKeys(res, { deep: true })
+            ? (() => {
+                const transform = shouldTransformData
+                  ? camelcaseKeys(res, { deep: true })
+                  : res
+
+                return {
+                  ...transform,
+                  get data() {
+                    return transform.data ?? transform
+                  },
+                }
+              })()
             : res
         }
       }
@@ -105,23 +134,22 @@ if (__DEV__ && !window.api) {
     },
   })
 }
-
-export const useRest = () => {
-  return RESTManager.api
-}
-
 RESTManager.instance.interceptors.request.use((url, options) => {
   const token = getToken()
 
-  if (token) {
-    // @ts-ignore
-    options.headers.Authorization = 'bearer ' + token
+  let modifiedUrl = url
+  if (options.method?.toUpperCase() === 'GET') {
+    modifiedUrl = `${url}?t=${+new Date()}`
+  }
+  if (options.headers) {
+    if (token) {
+      options.headers['Authorization'] = token
+    }
   }
   return {
-    url: url + '?timestamp=' + new Date().getTime(),
+    url: modifiedUrl,
     options: {
       ...options,
-
       interceptors: true,
     },
   }

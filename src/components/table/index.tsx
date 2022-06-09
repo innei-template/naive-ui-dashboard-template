@@ -1,4 +1,3 @@
-import { Pager } from 'models/base'
 import { NDataTable } from 'naive-ui'
 import { dataTableProps } from 'naive-ui/lib/data-table/src/DataTable'
 import {
@@ -6,8 +5,7 @@ import {
   SortState,
   TableColumns,
 } from 'naive-ui/lib/data-table/src/interface'
-import { UIStore } from 'stores/ui'
-import { useInjector } from 'utils'
+import { useUIStore } from 'stores/ui'
 import { defineComponent, reactive, ref, Ref, watch } from 'vue'
 import {
   LocationQueryValue,
@@ -15,6 +13,7 @@ import {
   useRoute,
   useRouter,
 } from 'vue-router'
+import { useStoreRef } from '~/hooks/use-store-ref'
 import styles from './index.module.css'
 export const tableRowStyle = styles['table-row']
 
@@ -32,7 +31,7 @@ const TableProps = [
 
 interface ITable<T = any> {
   data: Ref<T[]>
-  pager: Ref<Pager>
+  pager: Ref<any>
   onUpdateCheckedRowKeys?: (keys: string[]) => void
   checkedRowKey?: string
   onUpdateSorter?: (
@@ -87,7 +86,7 @@ export const Table = defineComponent<ITable>((props, ctx) => {
     loading.value = false
   })
 
-  const ui = useInjector(UIStore)
+  const ui = useStoreRef(useUIStore)
 
   return () => (
     <NDataTable
@@ -120,7 +119,7 @@ export const Table = defineComponent<ITable>((props, ctx) => {
         onUpdateCheckedRowKeys?.(keys as any)
       }}
       rowClassName={() => styles['table-row']}
-      onUpdateSorter={async (status) => {
+      onUpdateSorter={async (status: any) => {
         if (!status) {
           return
         }

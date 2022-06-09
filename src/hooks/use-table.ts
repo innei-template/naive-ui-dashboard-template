@@ -1,8 +1,6 @@
-import { PostModel } from 'models/post'
-import { Pager } from 'models/base'
-import { RowKey } from 'naive-ui/lib/data-table/src/interface'
-import { ref, reactive, Ref } from 'vue'
+import { reactive, ref, Ref } from 'vue'
 import { LocationQueryValue } from 'vue-router'
+import { Pager } from '~/models/base'
 
 export type fetchDataFn = (
   page?: string | number | LocationQueryValue[],

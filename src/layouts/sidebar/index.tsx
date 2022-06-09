@@ -1,15 +1,15 @@
 import $RouterView from 'layouts/router-view'
 import { NLayoutContent } from 'naive-ui'
 import { defineComponent, watchEffect } from 'vue'
+import { useStoreRef } from '~/hooks/use-store-ref'
 import { Sidebar } from '../../components/sidebar'
-import { UIStore } from '../../stores/ui'
-import { useInjector } from '../../hooks/use-deps-injection'
+import { useUIStore } from '../../stores/ui'
 import styles from './index.module.css'
 export const SidebarLayout = defineComponent({
   name: 'SidebarLayout',
 
-  setup(props) {
-    const ui = useInjector(UIStore)
+  setup() {
+    const ui = useStoreRef(useUIStore)
 
     const collapse = ui.sidebarCollapse
     watchEffect(() => {

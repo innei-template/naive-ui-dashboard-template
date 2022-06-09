@@ -2,7 +2,7 @@ import { ref } from 'vue'
 import { UserModel } from '../models/user'
 import { getToken, setToken } from '../utils/auth'
 
-export function UserStore() {
+export const useUserStore = defineStore('user', () => {
   const user = ref<UserModel | null>(null)
   const token = ref<string>('')
 
@@ -35,4 +35,4 @@ export function UserStore() {
       token.value = $token
     },
   }
-}
+})

@@ -13,11 +13,6 @@
     "skipLibCheck": true,
     "noEmit": true,
     "skipDefaultLibCheck": true,
-    "plugins": [
-      {
-        "name": "@vuedx/typescript-plugin-vue"
-      }
-    ],
     "lib": [
       "esnext",
       "dom"

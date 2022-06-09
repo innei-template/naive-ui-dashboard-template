@@ -1,16 +1,7 @@
-/*
- * @Author: Innei
- * @Date: 2021-03-22 11:41:32
- * @LastEditTime: 2021-03-22 11:41:32
- * @LastEditors: Innei
- * @FilePath: /admin-next/src/stores/ui.ts
- * Mark: Coding with Love
- */
+import { debounce } from 'lodash-es'
+import { computed, onMounted, ref, watch } from 'vue'
 
-import { reactive, ref } from 'vue'
-import { onMounted } from 'vue'
-import { throttle } from 'lodash-es'
-import { computed } from 'vue'
+import { useDark, useToggle } from '@vueuse/core'
 
 export interface ViewportRecord {
   w: number
@@ -20,16 +11,19 @@ export interface ViewportRecord {
   hpad: boolean
   wider: boolean
   widest: boolean
+  phone: boolean
 }
 
-export function UIStore() {
+export const useUIStore = defineStore('ui', () => {
   const viewport = ref<ViewportRecord>({} as any)
   const sidebarWidth = ref(250)
   const sidebarCollapse = ref(viewport.value.mobile ? true : false)
+
+  const isDark = useDark()
+  const toggleDark = useToggle(isDark)
+
   onMounted(() => {
-    const resizeHandler = throttle(() => {
-      updateViewport()
-    }, 300)
+    const resizeHandler = debounce(updateViewport, 500, { trailing: true })
     window.onresize = resizeHandler
     updateViewport()
   })
@@ -56,6 +50,8 @@ export function UIStore() {
       hpad: window.innerWidth <= 1024 && window.innerWidth > 768,
       wider: window.innerWidth > 1024 && window.innerWidth < 1920,
       widest: window.innerWidth >= 1920,
+
+      phone: window.innerWidth <= 768,
     }
   }
 
@@ -71,11 +67,34 @@ export function UIStore() {
       contentWidth.value -
       parseInt(getComputedStyle(document.documentElement).fontSize) * 6,
   )
+
+  watch(
+    () => isDark.value,
+    (isDark) => {
+      if (isDark) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    },
+  )
+
+  const naiveUIDark = ref(false)
   return {
     viewport,
     contentWidth,
     sidebarWidth,
     contentInsetWidth,
     sidebarCollapse,
+
+    isDark,
+    toggleDark,
+
+    naiveUIDark,
+    onlyToggleNaiveUIDark: (dark?: boolean) => {
+      naiveUIDark.value = dark ?? !naiveUIDark.value
+    },
   }
-}
+})
+
+export { useUIStore as UIStore }

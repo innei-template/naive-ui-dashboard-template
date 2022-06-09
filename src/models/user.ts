@@ -4,7 +4,7 @@ export interface UserModel {
   name: string
 
   username: string
-  created: Date
+  created: string
   modified: Date
   avatar: string
 }
