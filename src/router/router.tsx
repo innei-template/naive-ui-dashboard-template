@@ -6,14 +6,17 @@
  * @FilePath: /admin-next/src/router.ts
  * Mark: Coding with Love
  */
-import { Icon } from '@vicons/utils'
-import TachometerAlt from '@vicons/fa/es/TachometerAlt'
 import {
+  RouteRecordRaw,
   createRouter,
   createWebHashHistory,
   createWebHistory,
-  RouteRecordRaw,
 } from 'vue-router'
+
+import TachometerAlt from '@vicons/fa/es/TachometerAlt'
+import { Icon } from '@vicons/utils'
+
+import SetupLayout from '../layouts/setup-view.vue'
 import { SidebarLayout } from '../layouts/sidebar'
 import DashBoardView from '../views/dashboard'
 import LoginView from '../views/login/index.vue'
@@ -44,6 +47,18 @@ export const router = createRouter({
       name: RouteName.Home,
       redirect: '/dashboard',
       children: [...routeForMenu],
+    },
+
+    {
+      component: SetupLayout,
+      path: '/',
+      children: [
+        {
+          path: '/setup-api',
+          meta: { isPublic: true, title: '设置接口地址' },
+          component: () => import('../views/setup/setup-api'),
+        },
+      ],
     },
 
     {

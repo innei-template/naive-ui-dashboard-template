@@ -1,5 +1,8 @@
 import { defineConfig } from 'windicss/helpers'
+import plugin from 'windicss/plugin'
+
 import { colors } from './configs.json'
+
 export default defineConfig({
   content: ['./src/**/*.html', './src/**/*.vue', './src/**/*.tsx'],
   darkMode: 'class',
