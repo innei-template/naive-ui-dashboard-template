@@ -18,7 +18,7 @@ specifiers:
   clsx: 1.1.1
   date-fns: 2.28.0
   eslint: 8.17.0
-  eslint-plugin-vue: 9.1.0
+  eslint-plugin-vue: 9.1.1
   js-cookie: 3.0.1
   lodash-es: 4.17.21
   naive-ui: 2.30.3
@@ -68,7 +68,7 @@ devDependencies:
   '@vue/compiler-sfc': 3.2.37
   autoprefixer: 10.4.7_postcss@8.4.14
   eslint: 8.17.0
-  eslint-plugin-vue: 9.1.0_eslint@8.17.0
+  eslint-plugin-vue: 9.1.1_eslint@8.17.0
   postcss: 8.4.14
   postcss-import: 14.1.0_postcss@8.4.14
   prettier: 2.6.2
@@ -1956,8 +1956,8 @@ packages:
       eslint-rule-composer: 0.3.0
     dev: true
 
-  /eslint-plugin-vue/9.1.0_eslint@8.17.0:
-    resolution: {integrity: sha512-EPCeInPicQ/YyfOWJDr1yfEeSNoFCMzUus107lZyYi37xejdOolNzS5MXGXp8+9bkoKZMdv/1AcZzQebME6r+g==}
+  /eslint-plugin-vue/9.1.1_eslint@8.17.0:
+    resolution: {integrity: sha512-W9n5PB1X2jzC7CK6riG0oAcxjmKrjTF6+keL1rni8n57DZeilx/Fulz+IRJK3lYseLNAygN0I62L7DvioW40Tw==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
@@ -3340,7 +3340,7 @@ packages:
     dev: true
 
   /to-fast-properties/2.0.0:
-    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}
+    resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
 
   /to-regex-range/5.0.1:
