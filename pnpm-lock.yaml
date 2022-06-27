@@ -30,7 +30,7 @@ specifiers:
   rollup-plugin-visualizer: 5.6.0
   typescript: 4.6.4
   umi-request: 1.4.0
-  unplugin-auto-import: 0.8.8
+  unplugin-auto-import: 0.9.1
   vite: 2.9.13
   vite-plugin-checker: 0.4.6
   vite-plugin-windicss: 1.8.5
@@ -74,7 +74,7 @@ devDependencies:
   prettier: 2.6.2
   rollup-plugin-visualizer: 5.6.0
   typescript: 4.6.4
-  unplugin-auto-import: 0.8.8_ojoxvjbpwvoeh74rv2mvkccqgm
+  unplugin-auto-import: 0.9.1_ojoxvjbpwvoeh74rv2mvkccqgm
   vite: 2.9.13
   vite-plugin-checker: 0.4.6_vite@2.9.13
   vite-plugin-windicss: 1.8.5_vite@2.9.13
@@ -2656,8 +2656,8 @@ packages:
     resolution: {integrity: sha512-zMq5n3cOf4fOzA4WoeulxagbAgMChdev3MgP6K51k7M0u2whTXxupfIY4VVzws4vxkiWhwH1rVQcsw7zDGfRhA==}
     dev: true
 
-  /mlly/0.5.2:
-    resolution: {integrity: sha512-4GTELSSErv6ZZJYU98fZNuIBJcXSz+ktHdRrCYEqU1m6ZlebOCG0jwZ+IEd9vOrbpYsVBBMC5OTrEyLnKRcauQ==}
+  /mlly/0.5.3:
+    resolution: {integrity: sha512-im69tuLD9EJh9fc9TZRpJEFvsBcGMez7glUCWDcHWWCKzhvPmNvyaYjp/+h0qJJN/Xovrs//GzGjOOKmFw4Gog==}
     dependencies:
       pathe: 0.2.0
       pkg-types: 0.3.2
@@ -3225,8 +3225,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /strip-literal/0.3.0:
-    resolution: {integrity: sha512-J+lfm3Pw5nzURj2B8acyvUSBqs3JbjM8WAfrmeH3qcn32+ew6kFwbZFV9+X8k9UOIAkQw9WPSzFZy3083c7l5Q==}
+  /strip-literal/0.4.0:
+    resolution: {integrity: sha512-ql/sBDoJOybTKSIOWrrh8kgUEMjXMwRAkZTD0EwiwxQH/6tTPkZvMIEjp0CRlpi6V5FMiJyvxeRkEi1KrGISoA==}
     dependencies:
       acorn: 8.7.1
     dev: true
@@ -3350,18 +3350,18 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /unimport/0.2.7_vite@2.9.13:
-    resolution: {integrity: sha512-lnClmDG8f4ZfLrAXSbHoHXdmYPREW+W0Z99+E/aomHNbvwSBsQVTH6dSChHAdyjp3LNicj/jQgq5DQN8Ho8huA==}
+  /unimport/0.4.0_vite@2.9.13:
+    resolution: {integrity: sha512-k2KgvR/rvpmOln5vJtgbikfnntV3nG2F4mRrAI+16cA0KgANaPqHwVrdJijWbW4ZLDmSt0xzCfy4MJt8bMel0w==}
     dependencies:
       '@rollup/pluginutils': 4.2.1
       escape-string-regexp: 5.0.0
       fast-glob: 3.2.11
       local-pkg: 0.4.1
       magic-string: 0.26.2
-      mlly: 0.5.2
+      mlly: 0.5.3
       pathe: 0.3.0
       scule: 0.2.1
-      strip-literal: 0.3.0
+      strip-literal: 0.4.0
       unplugin: 0.7.0_vite@2.9.13
     transitivePeerDependencies:
       - esbuild
@@ -3375,8 +3375,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unplugin-auto-import/0.8.8_ojoxvjbpwvoeh74rv2mvkccqgm:
-    resolution: {integrity: sha512-cVZ79zMR1v4VCZ9emFTUnltmazCc2B4hObyVrxJdlgJ2sK8qub6JfjFt38rCF6MVEddkHiWCU6wZR1qbdqe+ig==}
+  /unplugin-auto-import/0.9.1_ojoxvjbpwvoeh74rv2mvkccqgm:
+    resolution: {integrity: sha512-U2LGVl7nlVIGGV86Gr4x9JS5R2Vag43CGDiOebcCqQ1FPV/r8pdQ9yIZVbBj/v6xk3px/vE1zePC9z/WZgKmXg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vueuse/core': '*'
@@ -3389,7 +3389,7 @@ packages:
       '@vueuse/core': 8.6.0_vue@3.2.37
       local-pkg: 0.4.1
       magic-string: 0.26.2
-      unimport: 0.2.7_vite@2.9.13
+      unimport: 0.4.0_vite@2.9.13
       unplugin: 0.7.0_vite@2.9.13
     transitivePeerDependencies:
       - esbuild
