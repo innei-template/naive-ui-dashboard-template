@@ -30,7 +30,7 @@ specifiers:
   rollup-plugin-visualizer: 5.6.0
   typescript: 4.6.4
   umi-request: 1.4.0
-  unplugin-auto-import: 0.9.1
+  unplugin-auto-import: 0.9.2
   vite: 2.9.13
   vite-plugin-checker: 0.4.6
   vite-plugin-windicss: 1.8.5
@@ -74,7 +74,7 @@ devDependencies:
   prettier: 2.6.2
   rollup-plugin-visualizer: 5.6.0
   typescript: 4.6.4
-  unplugin-auto-import: 0.9.1_ojoxvjbpwvoeh74rv2mvkccqgm
+  unplugin-auto-import: 0.9.2_ojoxvjbpwvoeh74rv2mvkccqgm
   vite: 2.9.13
   vite-plugin-checker: 0.4.6_vite@2.9.13
   vite-plugin-windicss: 1.8.5_vite@2.9.13
@@ -3375,8 +3375,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unplugin-auto-import/0.9.1_ojoxvjbpwvoeh74rv2mvkccqgm:
-    resolution: {integrity: sha512-U2LGVl7nlVIGGV86Gr4x9JS5R2Vag43CGDiOebcCqQ1FPV/r8pdQ9yIZVbBj/v6xk3px/vE1zePC9z/WZgKmXg==}
+  /unplugin-auto-import/0.9.2_ojoxvjbpwvoeh74rv2mvkccqgm:
+    resolution: {integrity: sha512-cihfSyWtDyOvpD+bKQ77XSJF2Ix3N3ueatd59slBKgl995fbfExf2qXk/KialZE4/pPNjdGNEJl5ZwAhYj+e1g==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vueuse/core': '*'
