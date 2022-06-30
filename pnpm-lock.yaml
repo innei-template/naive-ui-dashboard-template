@@ -38,7 +38,7 @@ specifiers:
   vue: 3.2.37
   vue-eslint-parser: 9.0.3
   vue-router: 4.0.16
-  windicss: 3.5.5
+  windicss: 3.5.6
 
 dependencies:
   '@vicons/fa': 0.12.0
@@ -80,7 +80,7 @@ devDependencies:
   vite-plugin-windicss: 1.8.6_vite@2.9.13
   vite-tsconfig-paths: 3.5.0_vite@2.9.13
   vue-eslint-parser: 9.0.3_eslint@8.18.0
-  windicss: 3.5.5
+  windicss: 3.5.6
 
 packages:
 
@@ -3664,12 +3664,6 @@ packages:
     hasBin: true
     dependencies:
       isexe: 2.0.0
-    dev: true
-
-  /windicss/3.5.5:
-    resolution: {integrity: sha512-Mnbb9DT+74cw3UxcVimbwCw5tKxITNvOBwTFMFdUv9f5KoZensestA4vKUM8tw74QAwyjE5bqH0QQufgFQwj0Q==}
-    engines: {node: '>= 12'}
-    hasBin: true
     dev: true
 
   /windicss/3.5.6:
