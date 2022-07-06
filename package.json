@@ -14,7 +14,7 @@
     "@vicons/utils": "0.1.4",
     "@vueuse/core": "8.6.0",
     "camelcase-keys": "8.0.1",
-    "clsx": "1.1.1",
+    "clsx": "1.2.1",
     "date-fns": "2.28.0",
     "js-cookie": "3.0.1",
     "lodash-es": "4.17.21",

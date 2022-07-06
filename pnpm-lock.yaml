@@ -14,7 +14,7 @@ specifiers:
   '@vue/compiler-sfc': 3.2.37
   '@vueuse/core': 8.6.0
   camelcase-keys: 8.0.1
-  clsx: 1.1.1
+  clsx: 1.2.1
   date-fns: 2.28.0
   eslint: 8.19.0
   eslint-plugin-vue: 9.2.0
@@ -44,7 +44,7 @@ dependencies:
   '@vicons/utils': 0.1.4_vue@3.2.37
   '@vueuse/core': 8.6.0_vue@3.2.37
   camelcase-keys: 8.0.1
-  clsx: 1.1.1
+  clsx: 1.2.1
   date-fns: 2.28.0
   js-cookie: 3.0.1
   lodash-es: 4.17.21
@@ -1281,8 +1281,8 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /clsx/1.1.1:
-    resolution: {integrity: sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==}
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
     engines: {node: '>=6'}
     dev: false
 
