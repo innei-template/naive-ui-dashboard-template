@@ -1,12 +1,13 @@
-import { reactive, ref, Ref } from 'vue'
+import { Ref, reactive, ref } from 'vue'
 import { LocationQueryValue } from 'vue-router'
+
 import { Pager } from '~/models/base'
 
 export type fetchDataFn = (
   page?: string | number | LocationQueryValue[],
   size?: number,
 ) => Promise<void>
-export const useTable = <T = any>(
+export const useRemoteTableFetching = <T = any>(
   fetchDataFn: (data: Ref<T[]>, pager: Ref<Pager>) => fetchDataFn,
 ) => {
   const data: Ref<T[]> = ref<T[]>([]) as any
