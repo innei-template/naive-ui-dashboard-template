@@ -2,7 +2,7 @@ import { API_URL } from 'constants/env'
 import QProgress from 'qier-progress'
 
 import { configs } from '../configs'
-import { RESTManager } from '../utils/rest'
+// import { RESTManager } from '../utils/rest'
 import { router } from './router'
 
 export const progress = new QProgress({ colorful: false, color: '#1a9cf3' })
