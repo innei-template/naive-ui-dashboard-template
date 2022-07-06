@@ -58,15 +58,15 @@ export const router = createRouter({
           meta: { isPublic: true, title: '设置接口地址' },
           component: () => import('../views/setup/setup-api'),
         },
+        {
+          path: '/login',
+          name: RouteName.Login,
+          meta: { isPublic: true, title: '登陆' },
+          component: LoginView,
+        },
       ],
     },
 
-    {
-      path: '/login',
-      name: RouteName.Login,
-      meta: { isPublic: true, title: '登陆' },
-      component: LoginView,
-    },
     {
       path: '/:pathMatch(.*)*',
       name: '404',

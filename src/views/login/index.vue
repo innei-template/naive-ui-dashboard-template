@@ -2,10 +2,11 @@
 import { useMessage } from 'naive-ui'
 import { defineComponent, onMounted, onUnmounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { useStoreRef } from '../../hooks/use-store-ref'
+
 import configs from '../../../configs.json'
 import Avatar from '../../components/avatar/index.vue'
 import ParallaxButtonVue from '../../components/button/parallax-button.vue'
+import { useStoreRef } from '../../hooks/use-store-ref'
 import { UserModel } from '../../models/user'
 import { useUserStore } from '../../stores/user'
 import { RESTManager } from '../../utils/rest'
@@ -79,28 +80,18 @@ export default LoginView
 </script>
 
 <template>
-  <div>
-    <div
-      class="bg transition-opacity duration-700"
-      :style="{ backgroundImage: `url(${bgUrl})`, opacity: loaded ? 1 : 0 }"
-    />
-
-    <div class="wrapper">
-      <Avatar :src="user?.avatar" :size="80" />
-      <form action="#" @submit.prevent="handleLogin">
-        <div class="input-wrap">
-          <input ref="input" v-model="password" type="password" autofocus />
-          <div class="blur" />
-        </div>
-        <ParallaxButtonVue
-          title="登陆"
-          class="p-button-raised p-button-rounded"
-          @click="handleLogin"
-        />
-      </form>
-
-      <!-- <Avatar :size="80" src="https://resume.innei.ren/avatar.ec3d4d8d.png" /> -->
-    </div>
+  <div class="wrapper">
+    <Avatar :src="user?.avatar" :size="80" />
+    <form action="#" @submit.prevent="handleLogin">
+      <div class="input-wrap">
+        <input ref="input" v-model="password" type="password" autofocus />
+      </div>
+      <ParallaxButtonVue
+        title="登录"
+        class="p-button-raised p-button-rounded"
+        @click.prevent.stop="handleLogin"
+      />
+    </form>
   </div>
 </template>
 
