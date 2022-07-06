@@ -1,11 +1,15 @@
-import vue from '@vitejs/plugin-vue'
-import vueJsx from '@vitejs/plugin-vue-jsx'
 import { visualizer } from 'rollup-plugin-visualizer'
 import AutoImport from 'unplugin-auto-import/vite'
+import IconsResolver from 'unplugin-icons/resolver'
+import Icons from 'unplugin-icons/vite'
+import Components from 'unplugin-vue-components/vite'
 import { defineConfig, loadEnv } from 'vite'
 import Checker from 'vite-plugin-checker'
 import WindiCSS from 'vite-plugin-windicss'
 import tsconfigPaths from 'vite-tsconfig-paths'
+
+import vue from '@vitejs/plugin-vue'
+import vueJsx from '@vitejs/plugin-vue-jsx'
 
 export default ({ mode }) => {
   const env = loadEnv(mode, process.cwd())
@@ -19,6 +23,12 @@ export default ({ mode }) => {
       vue(),
       tsconfigPaths(),
       visualizer({ open: false }),
+
+      Components({
+        dts: './src/components.d.ts',
+        resolvers: [IconsResolver({})],
+      }),
+      Icons({}),
 
       AutoImport({
         include: [

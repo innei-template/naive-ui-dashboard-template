@@ -1,6 +1,6 @@
-import { computed, defineComponent, PropType } from 'vue'
-import clsx from 'clsx'
+import { PropType, computed, defineComponent } from 'vue'
 import { useRouter } from 'vue-router'
+
 import styles from './index.module.css'
 
 export const ContentLayout = defineComponent({
@@ -31,7 +31,7 @@ export const ContentLayout = defineComponent({
             {props.title ?? route.value.value.meta.title}
           </h1>
 
-          <div class={clsx(styles['header-actions'], 'space-x-4')}>
+          <div class={[styles['header-actions'], 'space-x-4']}>
             {props.actionsElement ? <A$ael /> : slots.actions?.()}
           </div>
         </header>

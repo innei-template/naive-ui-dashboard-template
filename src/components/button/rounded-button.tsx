@@ -1,8 +1,7 @@
 import { NButton, NPopover } from 'naive-ui'
+import { NIcon as Icon } from 'naive-ui'
 import { PropType, defineComponent } from 'vue'
 import { RouteLocationRaw, RouterLink } from 'vue-router'
-
-import { Icon } from '@vicons/utils'
 
 export type ButtonType = PropType<
   'primary' | 'info' | 'success' | 'warning' | 'error'
@@ -14,9 +13,7 @@ export const RoundedButton = defineComponent({
       default: 'primary',
     },
     onClick: {
-      type: Function as any as PropType<
-        JSX.IntrinsicElements['button']['onClick'] | undefined
-      >,
+      type: Function as PropType<(e: Event) => any>,
     },
     disabled: {
       type: Boolean,
@@ -51,9 +48,7 @@ export const HeaderActionButton = defineComponent({
       required: true,
     },
     onClick: {
-      type: Function as any as PropType<
-        JSX.IntrinsicElements['button']['onClick']
-      >,
+      type: Function as PropType<(e: Event) => any>,
     },
     disabled: {
       type: Boolean,

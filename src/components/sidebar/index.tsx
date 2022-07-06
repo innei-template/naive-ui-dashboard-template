@@ -1,18 +1,18 @@
-import Hamburger from '@vicons/ionicons5/es/Menu'
-import { Icon } from '@vicons/utils'
-import clsx from 'clsx'
-import { computed, defineComponent, onMounted, PropType, ref } from 'vue'
-import { useRouter } from 'vue-router'
-import configs from '../../../configs.json'
-
-import { buildMenus, MenuModel } from '../../utils/build-menus'
-
-import { Avatar } from '../avatar'
-import styles from './index.module.css'
-import { NLayoutContent } from 'naive-ui'
 import { API_URL } from 'constants/env'
+import { NLayoutContent } from 'naive-ui'
+import { NIcon as Icon } from 'naive-ui'
+import { PropType, computed, defineComponent, onMounted, ref } from 'vue'
+import { useRouter } from 'vue-router'
+import Hamburger from '~icons/material-symbols/menu'
+
 import { useStoreRef } from '~/hooks/use-store-ref'
 import { useUserStore } from '~/stores/user'
+
+import configs from '../../../configs.json'
+import { MenuModel, buildMenus } from '../../utils/build-menus'
+import { Avatar } from '../avatar'
+import styles from './index.module.css'
+
 export const Sidebar = defineComponent({
   name: 'SidebarComp',
   props: {
@@ -68,7 +68,7 @@ export const Sidebar = defineComponent({
 
     return () => (
       <div
-        class={clsx(styles['root'], props.collapse ? styles['collapse'] : null)}
+        class={[styles['root'], props.collapse ? styles['collapse'] : null]}
         style={{
           width: !props.collapse && props.width ? props.width + 'px' : '',
         }}
@@ -86,7 +86,7 @@ export const Sidebar = defineComponent({
             <button
               class={styles['collapse-button']}
               onClick={() => {
-                props.onCollapseChange(!props.collapse)
+                props.onCollapseChange?.(!props.collapse)
               }}
             >
               <Icon>
@@ -100,15 +100,15 @@ export const Sidebar = defineComponent({
               {menus.value.map((item, index) => {
                 return (
                   <div
-                    class={clsx(
+                    class={[
                       'py-2',
                       route.value.fullPath === item.fullPath ||
-                        route.value.fullPath.startsWith(item.fullPath)
+                      route.value.fullPath.startsWith(item.fullPath)
                         ? styles['active']
                         : '',
 
                       styles['item'],
-                    )}
+                    ]}
                     data-path={item.fullPath}
                   >
                     <button
@@ -130,11 +130,11 @@ export const Sidebar = defineComponent({
                     </button>
                     {item.subItems && (
                       <ul
-                        class={clsx(
+                        class={[
                           'overflow-hidden  ' +
                             (!!item.subItems.length ? styles['has-child'] : ''),
                           _index.value === index ? styles['expand'] : '',
-                        )}
+                        ]}
                         style={{
                           maxHeight:
                             _index.value === index
@@ -147,15 +147,13 @@ export const Sidebar = defineComponent({
                             <li
                               key={child.path}
                               // data-fullPath={child.fullPath}
-                              class={clsx(
+                              class={[
                                 route.value.fullPath === child.fullPath ||
-                                  route.value.fullPath.startsWith(
-                                    child.fullPath,
-                                  )
+                                route.value.fullPath.startsWith(child.fullPath)
                                   ? styles['active']
                                   : '',
                                 styles['item'],
-                              )}
+                              ]}
                             >
                               <button
                                 onClick={() => handleRoute(child)}
@@ -183,10 +181,10 @@ export const Sidebar = defineComponent({
           </NLayoutContent>
 
           <button
-            class={clsx(
+            class={[
               'bottom-bar flex space-x-2 items-center  transform translate-y-1/3 phone:hidden',
               props.collapse ? 'px-8' : 'px-12',
-            )}
+            ]}
             onClick={() => {
               window.open(API_URL)
             }}

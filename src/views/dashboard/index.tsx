@@ -1,10 +1,10 @@
-import Copy from '@vicons/ionicons5/es/Copy'
-import Refresh from '@vicons/ionicons5/es/Refresh'
-import { Icon } from '@vicons/utils'
 import { ContentLayout } from 'layouts/content'
 import { pick } from 'lodash-es'
+import { NIcon as Icon } from 'naive-ui'
 import { NButton, NH1, NP, NSpace, NText, useMessage } from 'naive-ui'
 import { defineComponent, onBeforeMount, ref } from 'vue'
+import Copy from '~icons/material-symbols/content-copy-outline'
+import Refresh from '~icons/material-symbols/refresh-rounded'
 
 export default defineComponent({
   setup() {

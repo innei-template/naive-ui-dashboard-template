@@ -1,20 +1,11 @@
-/*
- * @Author: Innei
- * @Date: 2021-03-21 22:21:31
- * @LastEditTime: 2021-03-22 11:50:11
- * @LastEditors: Innei
- * @FilePath: /admin-next/src/router.ts
- * Mark: Coding with Love
- */
+import { NIcon as Icon } from 'naive-ui'
 import {
   RouteRecordRaw,
   createRouter,
   createWebHashHistory,
   createWebHistory,
 } from 'vue-router'
-
-import TachometerAlt from '@vicons/fa/es/TachometerAlt'
-import { Icon } from '@vicons/utils'
+import UilTachometerFast from '~icons/uil/tachometer-fast'
 
 import SetupLayout from '../layouts/setup-view.vue'
 import { SidebarLayout } from '../layouts/sidebar'
@@ -31,7 +22,7 @@ export const routeForMenu: Array<RouteRecordRaw> = [
       title: '仪表盘',
       icon: (
         <Icon>
-          <TachometerAlt />
+          <UilTachometerFast />
         </Icon>
       ),
     },
