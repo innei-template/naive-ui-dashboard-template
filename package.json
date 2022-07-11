@@ -22,7 +22,7 @@
     "vue-router": "4.1.1"
   },
   "devDependencies": {
-    "@iconify/json": "2.1.75",
+    "@iconify/json": "2.1.76",
     "@innei/eslint-config-ts": "0.9.2",
     "@innei/prettier": "0.9.2",
     "@types/lodash-es": "4.17.6",
