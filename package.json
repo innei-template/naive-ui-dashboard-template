@@ -41,7 +41,7 @@
     "unplugin-icons": "0.14.7",
     "unplugin-vue-components": "0.21.1",
     "vite": "2.9.14",
-    "vite-plugin-checker": "0.4.8",
+    "vite-plugin-checker": "0.4.9",
     "vite-plugin-windicss": "1.8.6",
     "vite-tsconfig-paths": "3.5.0",
     "vue-eslint-parser": "9.0.3",
