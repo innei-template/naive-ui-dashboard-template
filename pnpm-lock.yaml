@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify/json': 2.1.76
+  '@iconify/json': 2.1.77
   '@innei/eslint-config-ts': 0.9.2
   '@innei/prettier': 0.9.2
   '@types/lodash-es': 4.17.6
@@ -51,7 +51,7 @@ dependencies:
   vue-router: 4.1.2_vue@3.2.37
 
 devDependencies:
-  '@iconify/json': 2.1.76
+  '@iconify/json': 2.1.77
   '@innei/eslint-config-ts': 0.9.2_typescript@4.6.4
   '@innei/prettier': 0.9.2
   '@types/lodash-es': 4.17.6
@@ -548,8 +548,8 @@ packages:
       - supports-color
     dev: true
 
-  /@iconify/json/2.1.76:
-    resolution: {integrity: sha512-U70Ty0NUvaYLXVl6d8+BeAf1C6UbDnAtWY9iSXng3JT9965I9D0Tvqpmuo0Mf1YCRz9d09QolR8sLX8KEFkq4Q==}
+  /@iconify/json/2.1.77:
+    resolution: {integrity: sha512-jiKXdacGC3OQjxSKj4XR38+qR/3IlvW+OyS4FLzrDhFB6XExlVXPu2saWJmrbtoMLCg+pdNsI2Cy/eNTzUFlQw==}
     dependencies:
       '@iconify/types': 1.1.0
       pathe: 0.3.0
