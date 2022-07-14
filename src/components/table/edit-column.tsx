@@ -1,6 +1,6 @@
-import { defineComponent } from 'vue'
 import { NInput, NSpace } from 'naive-ui'
-import { PropType, ref, watch } from 'vue'
+import type { PropType } from 'vue'
+import { defineComponent, ref, watch } from 'vue'
 
 export const EditColumn = defineComponent({
   props: {
@@ -39,7 +39,7 @@ export const EditColumn = defineComponent({
       },
     )
     const handleSubmit = () => {
-      props.onSubmit(value.value)
+      props.onSubmit?.(value.value)
       isEdit.value = false
     }
     return () => (

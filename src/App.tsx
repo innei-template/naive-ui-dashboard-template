@@ -1,11 +1,11 @@
 import { configs } from 'configs'
+import type { GlobalThemeOverrides } from 'naive-ui'
 import {
-  dateZhCN,
-  GlobalThemeOverrides,
   NConfigProvider,
   NDialogProvider,
   NMessageProvider,
   NNotificationProvider,
+  dateZhCN,
   useMessage,
   useNotification,
   zhCN,
@@ -14,7 +14,6 @@ import { defineComponent, onMounted } from 'vue'
 import { RouterView } from 'vue-router'
 
 import { useStoreRef } from './hooks/use-store-ref'
-import { UIStore } from './stores/ui'
 import { useUserStore } from './stores/user'
 
 const Root = defineComponent({
@@ -65,4 +64,5 @@ const App = defineComponent({
   },
 })
 
+// eslint-disable-next-line import/no-default-export
 export default App

@@ -1,4 +1,4 @@
-import { PropType, defineComponent, onMounted, ref } from 'vue'
+import { defineComponent, onMounted, ref } from 'vue'
 
 import { inputBaseProps } from './base'
 import styles from './material.module.css'
@@ -11,6 +11,7 @@ export const MaterialInput = defineComponent({
       required: true,
     },
   },
+  emits: ['compositionstart', 'compositionend'],
   setup(props, { emit }) {
     const inputRef = ref<HTMLInputElement>()
 
@@ -34,7 +35,7 @@ export const MaterialInput = defineComponent({
           ref={inputRef}
           type={props.type ?? 'text'}
           value={props.value}
-          onInput={(e) => props.onChange((e.target as any).value)}
+          onInput={(e) => props.onChange?.((e.target as any).value)}
         />
         <span class={styles['bar']}></span>
         <label>{props.label}</label>

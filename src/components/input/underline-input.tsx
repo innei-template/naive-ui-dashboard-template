@@ -19,7 +19,7 @@ export const UnderlineInput = defineComponent({
           value={props.value}
           placeholder={props.placeholder ?? ''}
           onInput={(e) => {
-            props.onChange((e.target as any).value)
+            props.onChange?.((e.target as any).value)
           }}
         />
         <span class="text-transparent">{props.value}&nbsp;</span>

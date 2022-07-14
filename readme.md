@@ -1,4 +1,4 @@
-# Naive-ui Dashboard Template
+# Naive UI Dashboard Template
 
 This template is taken from [Mx Space Admin v2](https://github.com/mx-space/mx-admin) and styled the same way.
 
