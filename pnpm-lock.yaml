@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@iconify/json': 2.1.81
   '@innei/eslint-config-ts': 0.9.4
-  '@innei/prettier': 0.9.3
+  '@innei/prettier': 0.9.4
   '@types/lodash-es': 4.17.6
   '@typescript-eslint/eslint-plugin': 5.30.7
   '@typescript-eslint/parser': 5.30.7
@@ -53,7 +53,7 @@ dependencies:
 devDependencies:
   '@iconify/json': 2.1.81
   '@innei/eslint-config-ts': 0.9.4
-  '@innei/prettier': 0.9.3
+  '@innei/prettier': 0.9.4
   '@types/lodash-es': 4.17.6
   '@typescript-eslint/eslint-plugin': 5.30.7_6wltbjakwuqm7awqswigmiuhd4
   '@typescript-eslint/parser': 5.30.7_he2ccbldppg44uulnyq4rwocfa
@@ -494,8 +494,8 @@ packages:
       - supports-color
     dev: true
 
-  /@innei/prettier/0.9.3:
-    resolution: {integrity: sha512-7uJS30e/tlVPNGjDi7nUnCzXM8UI7ltFQ1DG5D3XMDWXuskMjh0uJT73VreAtnduky7KRK/aAic4MiHfa3XYLQ==}
+  /@innei/prettier/0.9.4:
+    resolution: {integrity: sha512-Rf5X/EqVw0iz0L4DN5MHTNiAQOq9ez/N/8sLdS9q+uCQ/vsYI64I52QNvXXM3ljSMEwSmijViF6oAbrDCHRsuA==}
     dependencies:
       '@trivago/prettier-plugin-sort-imports': /@ianvs/prettier-plugin-sort-imports/3.4.2_prettier@2.7.1
       prettier: 2.7.1
