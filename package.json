@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@iconify/json": "2.1.81",
-    "@innei/eslint-config-ts": "0.9.3",
+    "@innei/eslint-config-ts": "0.9.4",
     "@innei/prettier": "0.9.3",
     "@types/lodash-es": "4.17.6",
     "@typescript-eslint/eslint-plugin": "5.30.7",
