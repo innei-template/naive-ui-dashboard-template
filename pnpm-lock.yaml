@@ -17,7 +17,7 @@ specifiers:
   eslint-plugin-vue: 9.3.0
   js-cookie: 3.0.1
   lodash-es: 4.17.21
-  naive-ui: 2.31.0
+  naive-ui: 2.32.1
   pinia: 2.0.17
   postcss: 8.4.14
   prettier: 2.7.1
@@ -43,7 +43,7 @@ dependencies:
   date-fns: 2.28.0
   js-cookie: 3.0.1
   lodash-es: 4.17.21
-  naive-ui: 2.31.0_vue@3.2.37
+  naive-ui: 2.32.1_vue@3.2.37
   pinia: 2.0.17_j6bzmzd4ujpabbp5objtwxyjp4
   qier-progress: 1.0.4
   umi-request: 1.4.0
@@ -2599,8 +2599,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /naive-ui/2.31.0_vue@3.2.37:
-    resolution: {integrity: sha512-70PHh1wDo6GP87MquQE4hHxMaISX6y/SWwmAzS86XfK+1gBCpQPcANHrmxsjPncRxk6Zq9CDeW6tzAqw6qUtfA==}
+  /naive-ui/2.32.1_vue@3.2.37:
+    resolution: {integrity: sha512-4zRHAn9d273qKWHs2ZQ+9xZmGTfxhL/CI1tj8bJkE313zjwyGRaiPbCeh3hQgrNdZWiRXdqmA442EVKHizGWeg==}
     peerDependencies:
       vue: ^3.0.0
     dependencies:
