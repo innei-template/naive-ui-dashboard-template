@@ -33,7 +33,7 @@
     "@vue/compiler-sfc": "3.2.37",
     "eslint": "8.21.0",
     "eslint-plugin-vue": "9.3.0",
-    "postcss": "8.4.14",
+    "postcss": "8.4.16",
     "prettier": "2.7.1",
     "rollup-plugin-visualizer": "5.7.1",
     "typescript": "4.7.4",
