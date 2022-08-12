@@ -7,7 +7,7 @@ specifiers:
   '@types/lodash-es': 4.17.6
   '@typescript-eslint/eslint-plugin': 5.33.0
   '@typescript-eslint/parser': 5.33.0
-  '@vitejs/plugin-vue': 3.0.2
+  '@vitejs/plugin-vue': 3.0.3
   '@vitejs/plugin-vue-jsx': 2.0.0
   '@vue/compiler-sfc': 3.2.37
   '@vueuse/core': 9.0.2
@@ -57,7 +57,7 @@ devDependencies:
   '@types/lodash-es': 4.17.6
   '@typescript-eslint/eslint-plugin': 5.33.0_njno5y7ry2l2lcmiu4tywxkwnq
   '@typescript-eslint/parser': 5.33.0_qugx7qdu5zevzvxaiqyxfiwquq
-  '@vitejs/plugin-vue': 3.0.2_vite@3.0.6+vue@3.2.37
+  '@vitejs/plugin-vue': 3.0.3_vite@3.0.6+vue@3.2.37
   '@vitejs/plugin-vue-jsx': 2.0.0_vite@3.0.6+vue@3.2.37
   '@vue/compiler-sfc': 3.2.37
   eslint: 8.21.0
@@ -859,8 +859,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue/3.0.2_vite@3.0.6+vue@3.2.37:
-    resolution: {integrity: sha512-LAqb+tibmsKmSbxBzsMqWVJe6gDE4BDmFLjIzk4YdHgeiRCTokPbK8yRB3dRxDRwNk4IFwCFVE6+WP+YM0mbJg==}
+  /@vitejs/plugin-vue/3.0.3_vite@3.0.6+vue@3.2.37:
+    resolution: {integrity: sha512-U4zNBlz9mg+TA+i+5QPc3N5lQvdUXENZLO2h0Wdzp56gI1MWhqJOv+6R+d4kOzoaSSq6TnGPBdZAXKOe4lXy6g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
