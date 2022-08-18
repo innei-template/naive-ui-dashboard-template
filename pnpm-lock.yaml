@@ -17,7 +17,7 @@ specifiers:
   eslint-plugin-vue: 9.3.0
   js-cookie: 3.0.1
   lodash-es: 4.17.21
-  naive-ui: 2.32.1
+  naive-ui: 2.32.2
   pinia: 2.0.19
   postcss: 8.4.16
   prettier: 2.7.1
@@ -43,7 +43,7 @@ dependencies:
   date-fns: 2.29.2
   js-cookie: 3.0.1
   lodash-es: 4.17.21
-  naive-ui: 2.32.1_vue@3.2.37
+  naive-ui: 2.32.2_vue@3.2.37
   pinia: 2.0.19_j6bzmzd4ujpabbp5objtwxyjp4
   qier-progress: 1.0.4
   umi-request: 1.4.0
@@ -1937,8 +1937,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /evtd/0.2.3:
-    resolution: {integrity: sha512-tmiT1YUVqFjTY+BSBOAskL83xNx41iUfpvKP6Gcd/xMHjg3mnER98jXGXJyKnxCG19uPc6EhZiUC+MUyvoqCtw==}
+  /evtd/0.2.4:
+    resolution: {integrity: sha512-qaeGN5bx63s/AXgQo8gj6fBkxge+OoLddLniox5qtLAEY5HSnuSlISXVPxnSae1dWblvTh4/HoMIB+mbMsvZzw==}
     dev: false
 
   /execa/5.1.1:
@@ -2610,8 +2610,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /naive-ui/2.32.1_vue@3.2.37:
-    resolution: {integrity: sha512-4zRHAn9d273qKWHs2ZQ+9xZmGTfxhL/CI1tj8bJkE313zjwyGRaiPbCeh3hQgrNdZWiRXdqmA442EVKHizGWeg==}
+  /naive-ui/2.32.2_vue@3.2.37:
+    resolution: {integrity: sha512-vTNuZ8LBlfo/cdiv4S8o6Cg5g7p9V9cR5rK+Fag2cplOnng5twTILD3sBaCqw3k/BV1331Xdk26ml8Me8QJ7iA==}
     peerDependencies:
       vue: ^3.0.0
     dependencies:
@@ -2623,11 +2623,11 @@ packages:
       css-render: 0.15.10
       date-fns: 2.29.2
       date-fns-tz: 1.3.6_date-fns@2.29.2
-      evtd: 0.2.3
+      evtd: 0.2.4
       highlight.js: 11.6.0
       lodash: 4.17.21
       lodash-es: 4.17.21
-      seemly: 0.3.5
+      seemly: 0.3.6
       treemate: 0.3.11
       vdirs: 0.1.8_vue@3.2.37
       vooks: 0.2.12_vue@3.2.37
@@ -3026,8 +3026,8 @@ packages:
     resolution: {integrity: sha512-M9gnWtn3J0W+UhJOHmBxBTwv8mZCan5i1Himp60t6vvZcor0wr+IM0URKmIglsWJ7bRujNAVVN77fp+uZaWoKg==}
     dev: true
 
-  /seemly/0.3.5:
-    resolution: {integrity: sha512-Z0QAytAEpkAeWbQZBQ+zb+9YYn86+AFBdWA4y7FwFtJ+ZcIO55QEVdT0sJ0DxuX8FWD4UTuwaftz/UX+MmHlhw==}
+  /seemly/0.3.6:
+    resolution: {integrity: sha512-lEV5VB8BUKTo/AfktXJcy+JeXns26ylbMkIUco8CYREsQijuz4mrXres2Q+vMLdwkuLxJdIPQ8IlCIxLYm71Yw==}
     dev: false
 
   /semver/6.3.0:
@@ -3480,7 +3480,7 @@ packages:
     peerDependencies:
       vue: ^3.0.11
     dependencies:
-      evtd: 0.2.3
+      evtd: 0.2.4
       vue: 3.2.37
     dev: false
 
@@ -3568,7 +3568,7 @@ packages:
     peerDependencies:
       vue: ^3.0.0
     dependencies:
-      evtd: 0.2.3
+      evtd: 0.2.4
       vue: 3.2.37
     dev: false
 
@@ -3670,8 +3670,8 @@ packages:
       '@css-render/vue3-ssr': 0.15.10_vue@3.2.37
       '@juggle/resize-observer': 3.3.1
       css-render: 0.15.10
-      evtd: 0.2.3
-      seemly: 0.3.5
+      evtd: 0.2.4
+      seemly: 0.3.6
       vdirs: 0.1.8_vue@3.2.37
       vooks: 0.2.12_vue@3.2.37
       vue: 3.2.37
