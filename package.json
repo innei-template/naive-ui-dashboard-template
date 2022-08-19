@@ -40,7 +40,7 @@
     "unplugin-auto-import": "0.9.5",
     "unplugin-icons": "0.14.8",
     "unplugin-vue-components": "0.22.4",
-    "vite": "3.0.8",
+    "vite": "3.0.9",
     "vite-plugin-checker": "0.4.9",
     "vite-plugin-windicss": "1.8.7",
     "vite-tsconfig-paths": "3.5.0",
