@@ -14,7 +14,7 @@ specifiers:
   camelcase-keys: 8.0.1
   date-fns: 2.29.2
   eslint: 8.22.0
-  eslint-plugin-vue: 9.3.0
+  eslint-plugin-vue: 9.4.0
   js-cookie: 3.0.1
   lodash-es: 4.17.21
   naive-ui: 2.32.2
@@ -61,7 +61,7 @@ devDependencies:
   '@vitejs/plugin-vue-jsx': 2.0.0_vite@3.0.9+vue@3.2.37
   '@vue/compiler-sfc': 3.2.37
   eslint: 8.22.0
-  eslint-plugin-vue: 9.3.0_eslint@8.22.0
+  eslint-plugin-vue: 9.4.0_eslint@8.22.0
   postcss: 8.4.16
   prettier: 2.7.1
   rollup-plugin-visualizer: 5.7.1
@@ -1780,8 +1780,8 @@ packages:
       eslint-rule-composer: 0.3.0
     dev: true
 
-  /eslint-plugin-vue/9.3.0_eslint@8.22.0:
-    resolution: {integrity: sha512-iscKKkBZgm6fGZwFt6poRoWC0Wy2dQOlwUPW++CiPoQiw1enctV2Hj5DBzzjJZfyqs+FAXhgzL4q0Ww03AgSmQ==}
+  /eslint-plugin-vue/9.4.0_eslint@8.22.0:
+    resolution: {integrity: sha512-Nzz2QIJ8FG+rtJaqT/7/ru5ie2XgT9KCudkbN0y3uFYhQ41nuHEaboLAiqwMcK006hZPQv/rVMRhUIwEGhIvfQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
