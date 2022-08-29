@@ -11,7 +11,7 @@ specifiers:
   '@vitejs/plugin-vue-jsx': 2.0.0
   '@vue/compiler-sfc': 3.2.37
   '@vueuse/core': 9.1.1
-  camelcase-keys: 8.0.1
+  camelcase-keys: 8.0.2
   date-fns: 2.29.2
   eslint: 8.23.0
   eslint-plugin-vue: 9.4.0
@@ -39,7 +39,7 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 9.1.1_vue@3.2.37
-  camelcase-keys: 8.0.1
+  camelcase-keys: 8.0.2
   date-fns: 2.29.2
   js-cookie: 3.0.1
   lodash-es: 4.17.21
@@ -1172,8 +1172,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /camelcase-keys/8.0.1:
-    resolution: {integrity: sha512-QIhTRYtbiDVHYMwNVWdhfJHnKYDpTfjNbU7Jn2X1U3yUSuxmjuFxVOPQMtbuStzIZHT71y4ZYCj7e9XuaGbthg==}
+  /camelcase-keys/8.0.2:
+    resolution: {integrity: sha512-qMKdlOfsjlezMqxkUGGMaWWs17i2HoL15tM+wtx8ld4nLrUwU58TFdvyGOz/piNP842KeO8yXvggVQSdQ828NA==}
     engines: {node: '>=14.16'}
     dependencies:
       camelcase: 7.0.0
