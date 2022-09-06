@@ -18,7 +18,7 @@ specifiers:
   js-cookie: 3.0.1
   lodash-es: 4.17.21
   naive-ui: 2.32.2
-  pinia: 2.0.21
+  pinia: 2.0.22
   postcss: 8.4.16
   prettier: 2.7.1
   qier-progress: 1.0.4
@@ -44,7 +44,7 @@ dependencies:
   js-cookie: 3.0.1
   lodash-es: 4.17.21
   naive-ui: 2.32.2_vue@3.2.38
-  pinia: 2.0.21_fl6vay66s5mfyioevoftbjhvcm
+  pinia: 2.0.22_fl6vay66s5mfyioevoftbjhvcm
   qier-progress: 1.0.4
   umi-request: 1.4.0
   vue: 3.2.38
@@ -2855,8 +2855,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pinia/2.0.21_fl6vay66s5mfyioevoftbjhvcm:
-    resolution: {integrity: sha512-6ol04PtL29O0Z6JHI47O3JUSoyOJ7Og0rstXrHVMZSP4zAldsQBXJCNF0i/H7m8vp/Hjd/CSmuPl7C5QAwpeWQ==}
+  /pinia/2.0.22_fl6vay66s5mfyioevoftbjhvcm:
+    resolution: {integrity: sha512-u+b8/BC+tmvo3ACbYO2w5NfxHWFOjvvw9DQnyT0dW8aUMCPRQT5QnfZ5R5W2MzZBMTeZRMQI7V/QFbafmM9QHw==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
