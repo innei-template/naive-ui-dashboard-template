@@ -11,7 +11,7 @@
   "dependencies": {
     "@vueuse/core": "9.1.1",
     "camelcase-keys": "8.0.2",
-    "date-fns": "2.29.2",
+    "date-fns": "2.29.3",
     "js-cookie": "3.0.1",
     "lodash-es": "4.17.21",
     "naive-ui": "2.32.2",
