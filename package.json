@@ -32,7 +32,7 @@
     "@vitejs/plugin-vue-jsx": "2.0.1",
     "@vue/compiler-sfc": "3.2.39",
     "eslint": "8.23.1",
-    "eslint-plugin-vue": "9.4.0",
+    "eslint-plugin-vue": "9.5.0",
     "postcss": "8.4.16",
     "prettier": "2.7.1",
     "rollup-plugin-visualizer": "5.7.1",
