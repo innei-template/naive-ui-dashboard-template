@@ -18,7 +18,7 @@ specifiers:
   js-cookie: 3.0.1
   lodash-es: 4.17.21
   naive-ui: 2.32.2
-  pinia: 2.0.22
+  pinia: 2.0.23
   postcss: 8.4.17
   prettier: 2.7.1
   qier-progress: 1.0.4
@@ -44,7 +44,7 @@ dependencies:
   js-cookie: 3.0.1
   lodash-es: 4.17.21
   naive-ui: 2.32.2_vue@3.2.40
-  pinia: 2.0.22_rg374xhldfcyvjtaj3qktyfz5y
+  pinia: 2.0.23_rg374xhldfcyvjtaj3qktyfz5y
   qier-progress: 1.0.4
   umi-request: 1.4.0
   vue: 3.2.40
@@ -940,6 +940,10 @@ packages:
 
   /@vue/devtools-api/6.2.1:
     resolution: {integrity: sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==}
+    dev: false
+
+  /@vue/devtools-api/6.4.4:
+    resolution: {integrity: sha512-Ku31WzpOV/8cruFaXaEZKF81WkNnvCSlBY4eOGtz5WMSdJvX1v1WWlSMGZeqUwPtQ27ZZz7B62erEMq8JDjcXw==}
     dev: false
 
   /@vue/reactivity-transform/3.2.40:
@@ -2864,8 +2868,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pinia/2.0.22_rg374xhldfcyvjtaj3qktyfz5y:
-    resolution: {integrity: sha512-u+b8/BC+tmvo3ACbYO2w5NfxHWFOjvvw9DQnyT0dW8aUMCPRQT5QnfZ5R5W2MzZBMTeZRMQI7V/QFbafmM9QHw==}
+  /pinia/2.0.23_rg374xhldfcyvjtaj3qktyfz5y:
+    resolution: {integrity: sha512-N15hFf4o5STrxpNrib1IEb1GOArvPYf1zPvQVRGOO1G1d74Ak0J0lVyalX/SmrzdT4Q0nlEFjbURsmBmIGUR5Q==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
@@ -2876,7 +2880,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@vue/devtools-api': 6.2.1
+      '@vue/devtools-api': 6.4.4
       typescript: 4.7.4
       vue: 3.2.40
       vue-demi: 0.13.4_vue@3.2.40
