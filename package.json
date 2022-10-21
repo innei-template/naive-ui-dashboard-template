@@ -31,7 +31,7 @@
     "@vitejs/plugin-vue": "3.0.3",
     "@vitejs/plugin-vue-jsx": "2.0.1",
     "@vue/compiler-sfc": "3.2.41",
-    "eslint": "8.25.0",
+    "eslint": "8.26.0",
     "eslint-plugin-vue": "9.6.0",
     "postcss": "8.4.18",
     "prettier": "2.7.1",
