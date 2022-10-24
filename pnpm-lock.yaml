@@ -34,7 +34,7 @@ specifiers:
   vite-tsconfig-paths: 3.5.2
   vue: 3.2.41
   vue-eslint-parser: 9.0.3
-  vue-router: 4.1.5
+  vue-router: 4.1.6
   windicss: 3.5.6
 
 dependencies:
@@ -48,7 +48,7 @@ dependencies:
   qier-progress: 1.0.4
   umi-request: 1.4.0
   vue: 3.2.41
-  vue-router: 4.1.5_vue@3.2.41
+  vue-router: 4.1.6_vue@3.2.41
 
 devDependencies:
   '@iconify/json': 2.1.127
@@ -944,12 +944,12 @@ packages:
       '@vue/compiler-dom': 3.2.41
       '@vue/shared': 3.2.41
 
-  /@vue/devtools-api/6.2.1:
-    resolution: {integrity: sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==}
-    dev: false
-
   /@vue/devtools-api/6.4.4:
     resolution: {integrity: sha512-Ku31WzpOV/8cruFaXaEZKF81WkNnvCSlBY4eOGtz5WMSdJvX1v1WWlSMGZeqUwPtQ27ZZz7B62erEMq8JDjcXw==}
+    dev: false
+
+  /@vue/devtools-api/6.4.5:
+    resolution: {integrity: sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==}
     dev: false
 
   /@vue/reactivity-transform/3.2.41:
@@ -3641,12 +3641,12 @@ packages:
       - supports-color
     dev: true
 
-  /vue-router/4.1.5_vue@3.2.41:
-    resolution: {integrity: sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==}
+  /vue-router/4.1.6_vue@3.2.41:
+    resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
-      '@vue/devtools-api': 6.2.1
+      '@vue/devtools-api': 6.4.5
       vue: 3.2.41
     dev: false
 
