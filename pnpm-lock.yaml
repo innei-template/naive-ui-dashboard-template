@@ -33,7 +33,7 @@ specifiers:
   vite-plugin-windicss: 1.8.8
   vite-tsconfig-paths: 3.5.2
   vue: 3.2.41
-  vue-eslint-parser: 9.0.3
+  vue-eslint-parser: 9.1.0
   vue-router: 4.1.6
   windicss: 3.5.6
 
@@ -73,7 +73,7 @@ devDependencies:
   vite-plugin-checker: 0.4.9_vite@3.2.1
   vite-plugin-windicss: 1.8.8_vite@3.2.1
   vite-tsconfig-paths: 3.5.2_vite@3.2.1
-  vue-eslint-parser: 9.0.3_eslint@8.26.0
+  vue-eslint-parser: 9.1.0_eslint@8.26.0
   windicss: 3.5.6
 
 packages:
@@ -1855,7 +1855,7 @@ packages:
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.10
       semver: 7.3.7
-      vue-eslint-parser: 9.0.3_eslint@8.26.0
+      vue-eslint-parser: 9.1.0_eslint@8.26.0
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -1948,15 +1948,6 @@ packages:
       text-table: 0.2.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /espree/9.3.2:
-    resolution: {integrity: sha512-D211tC7ZwouTIuY5x9XnS0E9sWNChB7IYKX/Xp5eQj3nFXhqmiUDB9q27y76oFl8jTg3pXcQx/bpxMfs3CIZbA==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    dependencies:
-      acorn: 8.8.0
-      acorn-jsx: 5.3.2_acorn@8.8.0
-      eslint-visitor-keys: 3.3.0
     dev: true
 
   /espree/9.4.0:
@@ -3678,8 +3669,8 @@ packages:
     dependencies:
       vue: 3.2.41
 
-  /vue-eslint-parser/9.0.3_eslint@8.26.0:
-    resolution: {integrity: sha512-yL+ZDb+9T0ELG4VIFo/2anAOz8SvBdlqEnQnvJ3M7Scq56DvtjY0VY88bByRZB0D4J0u8olBcfrXTVONXsh4og==}
+  /vue-eslint-parser/9.1.0_eslint@8.26.0:
+    resolution: {integrity: sha512-NGn/iQy8/Wb7RrRa4aRkokyCZfOUWk19OP5HP6JEozQFX5AoS/t+Z0ZN7FY4LlmWc4FNI922V7cvX28zctN8dQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
@@ -3688,7 +3679,7 @@ packages:
       eslint: 8.26.0
       eslint-scope: 7.1.1
       eslint-visitor-keys: 3.3.0
-      espree: 9.3.2
+      espree: 9.4.0
       esquery: 1.4.0
       lodash: 4.17.21
       semver: 7.3.7
