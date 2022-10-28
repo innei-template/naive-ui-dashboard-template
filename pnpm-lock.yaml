@@ -29,7 +29,7 @@ specifiers:
   unplugin-icons: 0.14.12
   unplugin-vue-components: 0.22.9
   vite: 3.2.1
-  vite-plugin-checker: 0.4.9
+  vite-plugin-checker: 0.5.1
   vite-plugin-windicss: 1.8.8
   vite-tsconfig-paths: 3.5.2
   vue: 3.2.41
@@ -70,7 +70,7 @@ devDependencies:
   unplugin-icons: 0.14.12_@vue+compiler-sfc@3.2.41
   unplugin-vue-components: 0.22.9_vue@3.2.41
   vite: 3.2.1
-  vite-plugin-checker: 0.4.9_vite@3.2.1
+  vite-plugin-checker: 0.5.1_ijajhpy42cvy56bwnun5jsnxiy
   vite-plugin-windicss: 1.8.8_vite@3.2.1
   vite-tsconfig-paths: 3.5.2_vite@3.2.1
   vue-eslint-parser: 9.0.3_eslint@8.26.0
@@ -2023,17 +2023,6 @@ packages:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
     dev: true
 
-  /fast-glob/3.2.11:
-    resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
-    engines: {node: '>=8.6.0'}
-    dependencies:
-      '@nodelib/fs.stat': 2.0.5
-      '@nodelib/fs.walk': 1.2.8
-      glob-parent: 5.1.2
-      merge2: 1.4.1
-      micromatch: 4.0.5
-    dev: true
-
   /fast-glob/3.2.12:
     resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==}
     engines: {node: '>=8.6.0'}
@@ -3533,23 +3522,38 @@ packages:
       vue: 3.2.41
     dev: false
 
-  /vite-plugin-checker/0.4.9_vite@3.2.1:
-    resolution: {integrity: sha512-Oii9mTum8bqZovWejcR739kCqST32oG6LdB/XMdwcLVzmcjq0gf1iVDIedVzJJ7t6GLQAYgjNwvB0fuMiT3tlg==}
-    hasBin: true
+  /vite-plugin-checker/0.5.1_ijajhpy42cvy56bwnun5jsnxiy:
+    resolution: {integrity: sha512-NFiO1PyK9yGuaeSnJ7Whw9fnxLc1AlELnZoyFURnauBYhbIkx9n+PmIXxSFUuC9iFyACtbJQUAEuQi6yHs2Adg==}
+    engines: {node: '>=14.16'}
     peerDependencies:
+      eslint: '>=7'
+      typescript: '*'
       vite: ^2.0.0 || ^3.0.0-0
+      vls: '*'
+      vti: '*'
+    peerDependenciesMeta:
+      eslint:
+        optional: true
+      typescript:
+        optional: true
+      vls:
+        optional: true
+      vti:
+        optional: true
     dependencies:
       '@babel/code-frame': 7.18.6
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       chokidar: 3.5.3
       commander: 8.3.0
-      fast-glob: 3.2.11
+      eslint: 8.26.0
+      fast-glob: 3.2.12
       lodash.debounce: 4.0.8
       lodash.pick: 4.4.0
       npm-run-path: 4.0.1
       strip-ansi: 6.0.1
       tiny-invariant: 1.2.0
+      typescript: 4.7.4
       vite: 3.2.1
       vscode-languageclient: 7.0.0
       vscode-languageserver: 7.0.0
