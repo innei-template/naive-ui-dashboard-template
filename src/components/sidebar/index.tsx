@@ -1,7 +1,7 @@
 import { API_URL } from 'constants/env'
-import { NLayoutContent } from 'naive-ui'
-import { NIcon as Icon } from 'naive-ui'
-import { PropType, computed, defineComponent, onMounted, ref } from 'vue'
+import { NLayoutContent , NIcon as Icon } from 'naive-ui'
+import type { PropType} from 'vue';
+import { computed, defineComponent, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import Hamburger from '~icons/material-symbols/menu'
 
@@ -9,7 +9,8 @@ import { useStoreRef } from '~/hooks/use-store-ref'
 import { useUserStore } from '~/stores/user'
 
 import configs from '../../../configs.json'
-import { MenuModel, buildMenus } from '../../utils/build-menus'
+import type { MenuModel} from '../../utils/build-menus';
+import { buildMenus } from '../../utils/build-menus'
 import { Avatar } from '../avatar'
 import styles from './index.module.css'
 
@@ -70,13 +71,13 @@ export const Sidebar = defineComponent({
       <div
         class={[styles['root'], props.collapse ? styles['collapse'] : null]}
         style={{
-          width: !props.collapse && props.width ? props.width + 'px' : '',
+          width: !props.collapse && props.width ? `${props.width}px` : '',
         }}
       >
         <div
           class={
-            'fixed left-0 top-0 h-screen overflow-hidden z-10 text-white ' +
-            styles['sidebar']
+            `fixed left-0 top-0 h-screen overflow-hidden z-10 text-white ${ 
+            styles['sidebar']}`
           }
         >
           <div class={'title relative font-medium text-center text-2xl'}>
@@ -131,14 +132,14 @@ export const Sidebar = defineComponent({
                     {item.subItems && (
                       <ul
                         class={[
-                          'overflow-hidden  ' +
-                            (!!item.subItems.length ? styles['has-child'] : ''),
+                          `overflow-hidden  ${ 
+                            item.subItems.length ? styles['has-child'] : ''}`,
                           _index.value === index ? styles['expand'] : '',
                         ]}
                         style={{
                           maxHeight:
                             _index.value === index
-                              ? item.subItems.length * 3.5 + 'rem'
+                              ? `${item.subItems.length * 3.5}rem`
                               : '0',
                         }}
                       >

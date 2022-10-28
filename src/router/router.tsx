@@ -1,6 +1,7 @@
 import { NIcon as Icon } from 'naive-ui'
+import type {
+  RouteRecordRaw} from 'vue-router';
 import {
-  RouteRecordRaw,
   createRouter,
   createWebHashHistory,
   createWebHistory,

@@ -7,7 +7,7 @@ import configs from '../../../configs.json'
 import Avatar from '../../components/avatar/index.vue'
 import ParallaxButtonVue from '../../components/button/parallax-button.vue'
 import { useStoreRef } from '../../hooks/use-store-ref'
-import { UserModel } from '../../models/user'
+import type { UserModel } from '../../models/user'
 import { useUserStore } from '../../stores/user'
 import { RESTManager } from '../../utils/rest'
 

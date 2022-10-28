@@ -1,20 +1,20 @@
 import { NDataTable } from 'naive-ui'
-import { dataTableProps } from 'naive-ui/lib/data-table/src/DataTable'
-import {
+import type {
   RowKey,
   SortState,
   TableColumns,
+  dataTableProps,
 } from 'naive-ui/lib/data-table/src/interface'
 import { useUIStore } from 'stores/ui'
-import { defineComponent, reactive, ref, Ref, watch } from 'vue'
-import {
-  LocationQueryValue,
-  onBeforeRouteUpdate,
-  useRoute,
-  useRouter,
-} from 'vue-router'
+import type { Ref } from 'vue'
+import { defineComponent, reactive, ref, watch } from 'vue'
+import type { LocationQueryValue } from 'vue-router'
+import { onBeforeRouteUpdate, useRoute, useRouter } from 'vue-router'
+
 import { useStoreRef } from '~/hooks/use-store-ref'
+
 import styles from './index.module.css'
+
 export const tableRowStyle = styles['table-row']
 
 const TableProps = [
@@ -47,7 +47,7 @@ interface ITable<T = any> {
   noPagination?: boolean
 }
 
-export const Table = defineComponent<ITable>((props, ctx) => {
+export const Table = defineComponent<ITable>((props) => {
   const {
     data,
     noPagination = false,
@@ -71,10 +71,7 @@ export const Table = defineComponent<ITable>((props, ctx) => {
   // HACK
   const clean = watch(
     () => data.value,
-    (n) => {
-      // if (n.length) {
-
-      // }
+    () => {
       loading.value = false
       clean()
     },

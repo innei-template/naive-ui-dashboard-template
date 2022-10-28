@@ -1,7 +1,6 @@
 import { ContentLayout } from 'layouts/content'
 import { pick } from 'lodash-es'
-import { NIcon as Icon } from 'naive-ui'
-import { NButton, NH1, NP, NSpace, NText, useMessage } from 'naive-ui'
+import { NIcon as Icon , NButton, NH1, NP, NSpace, NText, useMessage } from 'naive-ui'
 import { defineComponent, onBeforeMount, ref } from 'vue'
 import Copy from '~icons/material-symbols/content-copy-outline'
 import Refresh from '~icons/material-symbols/refresh-rounded'
@@ -21,7 +20,7 @@ export default defineComponent({
       const postfix = Object.values(
         pick(data, ['from', 'from_who', 'creator']),
       ).filter(Boolean)[0]
-      hitokoto.value = data.hitokoto + (postfix ? ' —— ' + postfix : '')
+      hitokoto.value = data.hitokoto + (postfix ? ` —— ${postfix}` : '')
     }
 
     onBeforeMount(() => {

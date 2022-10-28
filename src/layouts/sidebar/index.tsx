@@ -61,7 +61,7 @@ export const SidebarLayout = defineComponent({
           nativeScrollbar={false}
           class={styles['content']}
           style={{
-            left: !collapse.value ? sidebarWidth.value + 'px' : '100px',
+            left: !collapse.value ? `${sidebarWidth.value}px` : '100px',
             pointerEvents: isLaptop.value && !collapse.value ? 'none' : 'auto',
             top: isInApiDebugMode && '40px',
           }}

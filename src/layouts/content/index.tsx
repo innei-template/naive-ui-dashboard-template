@@ -1,4 +1,5 @@
-import { PropType, computed, defineComponent } from 'vue'
+import type { PropType} from 'vue';
+import { computed, defineComponent } from 'vue'
 import { useRouter } from 'vue-router'
 
 import styles from './index.module.css'

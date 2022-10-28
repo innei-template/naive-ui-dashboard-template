@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import { UserModel } from '../models/user'
+import type { UserModel } from '../models/user'
 import { getToken, setToken } from '../utils/auth'
 
 export const useUserStore = defineStore('user', () => {

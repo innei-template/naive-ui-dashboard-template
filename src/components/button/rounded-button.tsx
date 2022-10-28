@@ -1,7 +1,8 @@
-import { NButton, NPopover } from 'naive-ui'
-import { NIcon as Icon } from 'naive-ui'
-import { PropType, defineComponent } from 'vue'
-import { RouteLocationRaw, RouterLink } from 'vue-router'
+import { NButton, NPopover , NIcon as Icon } from 'naive-ui'
+import type { PropType} from 'vue';
+import { defineComponent } from 'vue'
+import type { RouteLocationRaw} from 'vue-router';
+import { RouterLink } from 'vue-router'
 
 export type ButtonType = PropType<
   'primary' | 'info' | 'success' | 'warning' | 'error'
