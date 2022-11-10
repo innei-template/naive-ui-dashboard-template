@@ -18,7 +18,7 @@
     "pinia": "2.0.23",
     "qier-progress": "1.0.4",
     "umi-request": "1.4.0",
-    "vue": "3.2.43",
+    "vue": "3.2.44",
     "vue-router": "4.1.6"
   },
   "devDependencies": {
@@ -30,7 +30,7 @@
     "@typescript-eslint/parser": "5.42.1",
     "@vitejs/plugin-vue": "3.2.0",
     "@vitejs/plugin-vue-jsx": "2.1.1",
-    "@vue/compiler-sfc": "3.2.43",
+    "@vue/compiler-sfc": "3.2.44",
     "eslint": "8.27.0",
     "eslint-plugin-vue": "9.7.0",
     "postcss": "8.4.18",
