@@ -19,7 +19,7 @@ specifiers:
   lodash-es: 4.17.21
   naive-ui: 2.33.5
   pinia: 2.0.23
-  postcss: 8.4.18
+  postcss: 8.4.19
   prettier: 2.7.1
   qier-progress: 1.0.4
   rollup-plugin-visualizer: 5.8.3
@@ -62,7 +62,7 @@ devDependencies:
   '@vue/compiler-sfc': 3.2.44
   eslint: 8.27.0
   eslint-plugin-vue: 9.7.0_eslint@8.27.0
-  postcss: 8.4.18
+  postcss: 8.4.19
   prettier: 2.7.1
   rollup-plugin-visualizer: 5.8.3
   typescript: 4.8.4
@@ -961,7 +961,7 @@ packages:
       '@vue/shared': 3.2.44
       estree-walker: 2.0.2
       magic-string: 0.25.9
-      postcss: 8.4.18
+      postcss: 8.4.19
       source-map: 0.6.1
 
   /@vue/compiler-ssr/3.2.44:
@@ -2920,8 +2920,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /postcss/8.4.18:
-    resolution: {integrity: sha512-Wi8mWhncLJm11GATDaQKobXSNEYGUHeQLiQqDFG1qQ5UTDPTEvKw0Xt5NsTpktGTwLps3ByrWsBrG0rB8YQ9oA==}
+  /postcss/8.4.19:
+    resolution: {integrity: sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.4
@@ -3563,7 +3563,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.15.12
-      postcss: 8.4.18
+      postcss: 8.4.19
       resolve: 1.22.1
       rollup: 2.79.1
     optionalDependencies:
