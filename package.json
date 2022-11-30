@@ -14,7 +14,7 @@
     "date-fns": "2.29.3",
     "js-cookie": "3.0.1",
     "lodash-es": "4.17.21",
-    "naive-ui": "2.33.5",
+    "naive-ui": "2.34.2",
     "pinia": "2.0.27",
     "qier-progress": "1.0.4",
     "umi-request": "1.4.0",
