@@ -29,7 +29,7 @@ specifiers:
   unplugin-icons: 0.14.14
   unplugin-vue-components: 0.22.11
   vite: 3.2.5
-  vite-plugin-checker: 0.5.1
+  vite-plugin-checker: 0.5.2
   vite-plugin-windicss: 1.8.8
   vite-tsconfig-paths: 3.5.2
   vue: 3.2.45
@@ -70,7 +70,7 @@ devDependencies:
   unplugin-icons: 0.14.14_@vue+compiler-sfc@3.2.45
   unplugin-vue-components: 0.22.11_vue@3.2.45
   vite: 3.2.5
-  vite-plugin-checker: 0.5.1_kd46lp3chg63z2bvnzv2fbbxvy
+  vite-plugin-checker: 0.5.2_kd46lp3chg63z2bvnzv2fbbxvy
   vite-plugin-windicss: 1.8.8_vite@3.2.5
   vite-tsconfig-paths: 3.5.2_vite@3.2.5
   vue-eslint-parser: 9.1.0_eslint@8.29.0
@@ -3490,17 +3490,26 @@ packages:
       vue: 3.2.45
     dev: false
 
-  /vite-plugin-checker/0.5.1_kd46lp3chg63z2bvnzv2fbbxvy:
-    resolution: {integrity: sha512-NFiO1PyK9yGuaeSnJ7Whw9fnxLc1AlELnZoyFURnauBYhbIkx9n+PmIXxSFUuC9iFyACtbJQUAEuQi6yHs2Adg==}
+  /vite-plugin-checker/0.5.2_kd46lp3chg63z2bvnzv2fbbxvy:
+    resolution: {integrity: sha512-RtpoXS1+A31HcXcNiuHyVDU3SlH1tU/ufOZEBlBrKclNsE+P9BdVsXiO5AWpczZCM6G2k/7GeH/BRi9lDvvakQ==}
     engines: {node: '>=14.16'}
     peerDependencies:
       eslint: '>=7'
+      meow: ^9.0.0
+      optionator: ^0.9.1
+      stylelint: '>=13'
       typescript: '*'
-      vite: ^2.0.0 || ^3.0.0-0
+      vite: '>=2.0.0'
       vls: '*'
       vti: '*'
     peerDependenciesMeta:
       eslint:
+        optional: true
+      meow:
+        optional: true
+      optionator:
+        optional: true
+      stylelint:
         optional: true
       typescript:
         optional: true
