@@ -29,7 +29,7 @@ specifiers:
   unplugin-icons: 0.14.15
   unplugin-vue-components: 0.22.12
   vite: 3.2.5
-  vite-plugin-checker: 0.5.3
+  vite-plugin-checker: 0.5.4
   vite-plugin-windicss: 1.8.10
   vite-tsconfig-paths: 3.5.2
   vue: 3.2.45
@@ -70,7 +70,7 @@ devDependencies:
   unplugin-icons: 0.14.15_@vue+compiler-sfc@3.2.45
   unplugin-vue-components: 0.22.12_vue@3.2.45
   vite: 3.2.5
-  vite-plugin-checker: 0.5.3_w5gygn2gqrtnojbh3do4fwhlp4
+  vite-plugin-checker: 0.5.4_w5gygn2gqrtnojbh3do4fwhlp4
   vite-plugin-windicss: 1.8.10_vite@3.2.5
   vite-tsconfig-paths: 3.5.2_vite@3.2.5
   vue-eslint-parser: 9.1.0_eslint@8.30.0
@@ -3496,8 +3496,8 @@ packages:
       vue: 3.2.45
     dev: false
 
-  /vite-plugin-checker/0.5.3_w5gygn2gqrtnojbh3do4fwhlp4:
-    resolution: {integrity: sha512-upPESKsQTypC2S7LPjxu9HknOymNSToAAHTYSFHb0at5GKLcN1QGMAR5Hb+7KqZclGMVniXAj7QdhZv+fTx83Q==}
+  /vite-plugin-checker/0.5.4_w5gygn2gqrtnojbh3do4fwhlp4:
+    resolution: {integrity: sha512-T6y+OHXqwOjGrCErbhzg5x79NQZV46cgLwYTxuMQnDzAfA6skh2i8PIHcKks8ZlxopzbkvMb5vwc2DpNXiHJdg==}
     engines: {node: '>=14.16'}
     peerDependencies:
       eslint: '>=7'
@@ -3508,6 +3508,7 @@ packages:
       vite: '>=2.0.0'
       vls: '*'
       vti: '*'
+      vue-tsc: '*'
     peerDependenciesMeta:
       eslint:
         optional: true
@@ -3522,6 +3523,8 @@ packages:
       vls:
         optional: true
       vti:
+        optional: true
+      vue-tsc:
         optional: true
     dependencies:
       '@babel/code-frame': 7.18.6
