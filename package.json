@@ -29,7 +29,7 @@
     "@typescript-eslint/eslint-plugin": "5.47.1",
     "@typescript-eslint/parser": "5.47.1",
     "@vitejs/plugin-vue": "3.2.0",
-    "@vitejs/plugin-vue-jsx": "2.1.1",
+    "@vitejs/plugin-vue-jsx": "3.0.0",
     "@vue/compiler-sfc": "3.2.45",
     "eslint": "8.30.0",
     "eslint-plugin-vue": "9.8.0",
