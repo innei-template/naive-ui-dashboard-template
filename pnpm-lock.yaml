@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify/json': 2.1.159
+  '@iconify/json': 2.2.13
   '@innei/eslint-config-ts': 0.9.7
   '@innei/prettier': 0.9.7
   '@types/lodash-es': 4.17.6
@@ -51,7 +51,7 @@ dependencies:
   vue-router: 4.1.6_vue@3.2.45
 
 devDependencies:
-  '@iconify/json': 2.1.159
+  '@iconify/json': 2.2.13
   '@innei/eslint-config-ts': 0.9.7_typescript@4.8.4
   '@innei/prettier': 0.9.7_@vue+compiler-sfc@3.2.45
   '@types/lodash-es': 4.17.6
@@ -487,11 +487,11 @@ packages:
       - supports-color
     dev: true
 
-  /@iconify/json/2.1.159:
-    resolution: {integrity: sha512-LBJDXNsHMBhBZ2BfN2Es/cB8GmI9+2305biJz/C2riYyUWNIU1BnrM5EzDL4i0FwKq6s7I2C+j2wtBJ3pCeQjA==}
+  /@iconify/json/2.2.13:
+    resolution: {integrity: sha512-TgTGzEhU2o0gGrkke3hVbkVtZB8EcbCdNR4X6ZbXJsApMuFghS4s+yuEbGHw+mMa3sp40L5qRi7wFU6Q47ysfw==}
     dependencies:
       '@iconify/types': 2.0.0
-      pathe: 0.3.9
+      pathe: 1.0.0
     dev: true
 
   /@iconify/types/2.0.0:
@@ -2894,10 +2894,6 @@ packages:
   /path-type/4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
-    dev: true
-
-  /pathe/0.3.9:
-    resolution: {integrity: sha512-6Y6s0vT112P3jD8dGfuS6r+lpa0qqNrLyHPOwvXMnyNTQaYiwgau2DP3aNDsR13xqtGj7rrPo+jFUATpU6/s+g==}
     dev: true
 
   /pathe/1.0.0:
