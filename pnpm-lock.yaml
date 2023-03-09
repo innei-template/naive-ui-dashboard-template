@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@iconify/json': 2.2.32
   '@innei/eslint-config-ts': 0.9.8
-  '@innei/prettier': 0.9.7
+  '@innei/prettier': 0.9.8
   '@types/lodash-es': 4.17.6
   '@typescript-eslint/eslint-plugin': 5.54.1
   '@typescript-eslint/parser': 5.54.1
@@ -53,7 +53,7 @@ dependencies:
 devDependencies:
   '@iconify/json': 2.2.32
   '@innei/eslint-config-ts': 0.9.8_typescript@4.8.4
-  '@innei/prettier': 0.9.7_@vue+compiler-sfc@3.2.47
+  '@innei/prettier': 0.9.8_@vue+compiler-sfc@3.2.47
   '@types/lodash-es': 4.17.6
   '@typescript-eslint/eslint-plugin': 5.54.1_oxxrfbmyxeembfx3omtbaasowa
   '@typescript-eslint/parser': 5.54.1_4i7pqkuy6izscdzr2hpyziu3pe
@@ -544,12 +544,12 @@ packages:
       - supports-color
     dev: true
 
-  /@innei/prettier/0.9.7_@vue+compiler-sfc@3.2.47:
-    resolution: {integrity: sha512-CxUbNMsm23h3llui28siIPAyuv8WvSwRVrghZo1JYb+UV/+YcqLGlZNyhtsk0KiPKOIRhMcJI4T3CgMX2MSHPQ==}
+  /@innei/prettier/0.9.8_@vue+compiler-sfc@3.2.47:
+    resolution: {integrity: sha512-48oXKtRhiV51Cmej60pBck2DPAYhCReMZBEvNtvrK2UZ7v9dnxrjd/+q3shvF4eDQhbiuF1UT8I+6mBpQpch5Q==}
     dependencies:
       '@trivago/prettier-plugin-sort-imports': /@ianvs/prettier-plugin-sort-imports/3.7.1_ht5m4fjxbv43inzcw5hdarafmm
       prettier: 2.8.4
-      prettier-package-json: 2.7.0
+      prettier-package-json: 2.8.0
     transitivePeerDependencies:
       - '@vue/compiler-sfc'
       - supports-color
@@ -2907,8 +2907,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-package-json/2.7.0:
-    resolution: {integrity: sha512-51I3/fYpBTLDXQDQK7+dfNlJzh5wdKhK8QteSZTZMppQd6aGpr1wqpwlKKZF1KdWA+91rwfpHUBrKwd2PXdXag==}
+  /prettier-package-json/2.8.0:
+    resolution: {integrity: sha512-WxtodH/wWavfw3MR7yK/GrS4pASEQ+iSTkdtSxPJWvqzG55ir5nvbLt9rw5AOiEcqqPCRM92WCtR1rk3TG3JSQ==}
     hasBin: true
     dependencies:
       '@types/parse-author': 2.0.1
