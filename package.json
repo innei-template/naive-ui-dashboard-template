@@ -9,7 +9,7 @@
     "format": "prettier --write --loglevel warn \"src/**/*.{js,json,tsx,ts,css,scss,vue,html,md}\""
   },
   "dependencies": {
-    "@vueuse/core": "9.11.1",
+    "@vueuse/core": "9.13.0",
     "camelcase-keys": "8.0.2",
     "date-fns": "2.29.3",
     "js-cookie": "3.0.1",
