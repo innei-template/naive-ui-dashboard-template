@@ -4,7 +4,7 @@ specifiers:
   '@iconify/json': 2.2.34
   '@innei/eslint-config-ts': 0.9.8
   '@innei/prettier': 0.9.8
-  '@types/lodash-es': 4.17.6
+  '@types/lodash-es': 4.17.7
   '@typescript-eslint/eslint-plugin': 5.55.0
   '@typescript-eslint/parser': 5.55.0
   '@vitejs/plugin-vue': 4.0.0
@@ -54,7 +54,7 @@ devDependencies:
   '@iconify/json': 2.2.34
   '@innei/eslint-config-ts': 0.9.8_typescript@4.8.4
   '@innei/prettier': 0.9.8_@vue+compiler-sfc@3.2.47
-  '@types/lodash-es': 4.17.6
+  '@types/lodash-es': 4.17.7
   '@typescript-eslint/eslint-plugin': 5.55.0_gbrymshiwbruly5dfbpezf4fny
   '@typescript-eslint/parser': 5.55.0_oetr3kuzbjncgm24ninkrag7ya
   '@vitejs/plugin-vue': 4.0.0_vite@3.2.5+vue@3.2.47
@@ -663,17 +663,13 @@ packages:
     resolution: {integrity: sha512-+2FW2CcT0K3P+JMR8YG846bmDwplKUTsWgT2ENwdQ1UdVfRk3GQrh6Mi4sTopy30gI8Uau5CEqHTDZ6YvWIUPA==}
     dev: false
 
-  /@types/lodash-es/4.17.6:
-    resolution: {integrity: sha512-R+zTeVUKDdfoRxpAryaQNRKk3105Rrgx2CFRClIgRGaqDTdjsm8h6IYA8ir584W3ePzkZfst5xIgDwYrlh9HLg==}
+  /@types/lodash-es/4.17.7:
+    resolution: {integrity: sha512-z0ptr6UI10VlU6l5MYhGwS4mC8DZyYer2mCoyysZtSF7p26zOX8UpbrV0YpNYLGS8K4PUFIyEr62IMFFjveSiQ==}
     dependencies:
-      '@types/lodash': 4.14.182
-
-  /@types/lodash/4.14.182:
-    resolution: {integrity: sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==}
+      '@types/lodash': 4.14.186
 
   /@types/lodash/4.14.186:
     resolution: {integrity: sha512-eHcVlLXP0c2FlMPm56ITode2AgLMSa6aJ05JTTbYbI+7EMkCEE5qk2E41d5g2lCVTqRe0GnnRFurmlCsDODrPw==}
-    dev: false
 
   /@types/node/17.0.45:
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
@@ -2776,7 +2772,7 @@ packages:
       '@css-render/vue3-ssr': 0.15.11_vue@3.2.47
       '@types/katex': 0.14.0
       '@types/lodash': 4.14.186
-      '@types/lodash-es': 4.17.6
+      '@types/lodash-es': 4.17.7
       async-validator: 4.2.5
       css-render: 0.15.11
       date-fns: 2.29.3
