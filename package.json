@@ -25,7 +25,7 @@
     "@iconify/json": "2.2.34",
     "@innei/eslint-config-ts": "0.9.8",
     "@innei/prettier": "0.9.8",
-    "@types/lodash-es": "4.17.6",
+    "@types/lodash-es": "4.17.7",
     "@typescript-eslint/eslint-plugin": "5.55.0",
     "@typescript-eslint/parser": "5.55.0",
     "@vitejs/plugin-vue": "4.0.0",
