@@ -70,8 +70,8 @@ devDependencies:
     specifier: 9.11.0
     version: 9.11.0(eslint@8.38.0)
   postcss:
-    specifier: 8.4.22
-    version: 8.4.22
+    specifier: 8.4.23
+    version: 8.4.23
   prettier:
     specifier: 2.8.7
     version: 2.8.7
@@ -1036,7 +1036,7 @@ packages:
       '@vue/shared': 3.2.47
       estree-walker: 2.0.2
       magic-string: 0.25.9
-      postcss: 8.4.22
+      postcss: 8.4.23
       source-map: 0.6.1
 
   /@vue/compiler-ssr@3.2.47:
@@ -3035,8 +3035,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /postcss@8.4.22:
-    resolution: {integrity: sha512-XseknLAfRHzVWjCEtdviapiBtfLdgyzExD50Rg2ePaucEesyh8Wv4VPdW0nbyDa1ydbrAxV19jvMT4+LFmcNUA==}
+  /postcss@8.4.23:
+    resolution: {integrity: sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -3704,7 +3704,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.15.12
-      postcss: 8.4.22
+      postcss: 8.4.23
       resolve: 1.22.1
       rollup: 2.79.1
     optionalDependencies:
