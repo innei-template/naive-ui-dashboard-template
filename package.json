@@ -12,7 +12,7 @@
     "@vueuse/core": "9.13.0",
     "camelcase-keys": "8.0.2",
     "date-fns": "2.29.3",
-    "js-cookie": "3.0.1",
+    "js-cookie": "3.0.4",
     "lodash-es": "4.17.21",
     "naive-ui": "2.34.3",
     "pinia": "2.0.34",
