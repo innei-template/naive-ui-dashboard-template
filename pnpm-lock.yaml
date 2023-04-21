@@ -37,8 +37,8 @@ dependencies:
 
 devDependencies:
   '@iconify/json':
-    specifier: 2.2.52
-    version: 2.2.52
+    specifier: 2.2.54
+    version: 2.2.54
   '@innei/eslint-config-ts':
     specifier: 0.9.8
     version: 0.9.8(typescript@4.8.4)
@@ -550,8 +550,8 @@ packages:
       - supports-color
     dev: true
 
-  /@iconify/json@2.2.52:
-    resolution: {integrity: sha512-jUM6R1Uwm8DlkAuMPT1cNS43dWyVRF8dL9eVlK5wZ3StbcTucrqGwJ+vk5M6ZHE1HWhc0yoML975cbGLHhmCfw==}
+  /@iconify/json@2.2.54:
+    resolution: {integrity: sha512-FnvjAiqPqD5jKiN8XP7BOisBBou6rLU/DmHqI8jIIyxCOnDfWEtdgAZdgL66eFo88M3SUUGE/V0pbcOXtaPBAQ==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.0.0
