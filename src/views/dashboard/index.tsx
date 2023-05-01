@@ -1,9 +1,15 @@
 import { ContentLayout } from 'layouts/content'
 import { pick } from 'lodash-es'
-import { NIcon as Icon , NButton, NH1, NP, NSpace, NText, useMessage } from 'naive-ui'
+import {
+  NIcon as Icon,
+  NButton,
+  NH1,
+  NP,
+  NSpace,
+  NText,
+  useMessage,
+} from 'naive-ui'
 import { defineComponent, onBeforeMount, ref } from 'vue'
-import Copy from '~icons/material-symbols/content-copy-outline'
-import Refresh from '~icons/material-symbols/refresh-rounded'
 
 export default defineComponent({
   setup() {
@@ -42,7 +48,7 @@ export default defineComponent({
                     class="ml-4 phone:ml-0 phone:float-right"
                   >
                     <Icon>
-                      <Refresh />
+                      <i class={'icon-[material-symbols--refresh-rounded]'} />
                     </Icon>
                   </NButton>
 
@@ -55,7 +61,9 @@ export default defineComponent({
                     }}
                   >
                     <Icon>
-                      <Copy />
+                      <i
+                        class={'icon-[material-symbols--content-copy-outline]'}
+                      />
                     </Icon>
                   </NButton>
                 </div>

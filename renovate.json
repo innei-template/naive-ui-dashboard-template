@@ -6,7 +6,8 @@
     ":automergeTesters",
     ":automergeLinters",
     ":rebaseStalePrs",
-    ":semanticCommits"
+    ":semanticCommits",
+    "group:allNonMajor"
   ],
   "packageRules": [
     {

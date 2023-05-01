@@ -1,13 +1,5 @@
 {
   "title": "静かな森",
   "loginBg": "https://gitee.com/xun7788/my-imagination/raw/master/uPic/1615516941397.jpg",
-  "progressbarColor": "#1a9cf3",
-  "colors": {
-    "primary": {
-      "default": "#3B82DC",
-      "deep": "#0984e3",
-      "shallow": "#5D8CDC",
-      "suppl": "#00a8ff"
-    }
-  }
+  "progressbarColor": "#1a9cf3"
 }

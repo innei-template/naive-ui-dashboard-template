@@ -1,12 +1,10 @@
 import { NIcon as Icon } from 'naive-ui'
-import type {
-  RouteRecordRaw} from 'vue-router';
+import type { RouteRecordRaw } from 'vue-router'
 import {
   createRouter,
   createWebHashHistory,
   createWebHistory,
 } from 'vue-router'
-import UilTachometerFast from '~icons/uil/tachometer-fast'
 
 import SetupLayout from '../layouts/setup-view.vue'
 import { SidebarLayout } from '../layouts/sidebar'
@@ -23,7 +21,7 @@ export const routeForMenu: Array<RouteRecordRaw> = [
       title: '仪表盘',
       icon: (
         <Icon>
-          <UilTachometerFast />
+          <i class={'icon-[uil--tachometer-fast]'} />
         </Icon>
       ),
     },

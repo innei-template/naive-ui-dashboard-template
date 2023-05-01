@@ -8,7 +8,7 @@
 
   @screen phone {
     .content {
-      left: 60px !important;
+      left: var(--sidebar-collapse-width) !important;
     }
   }
 }

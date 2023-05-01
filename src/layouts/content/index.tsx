@@ -1,4 +1,4 @@
-import type { PropType} from 'vue';
+import type { PropType } from 'vue'
 import { computed, defineComponent } from 'vue'
 import { useRouter } from 'vue-router'
 

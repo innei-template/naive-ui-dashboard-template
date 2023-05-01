@@ -2,14 +2,14 @@
 
 This template is taken from [Mx Space Admin v2](https://github.com/mx-space/mx-admin) and styled the same way.
 
-- WindiCSS
-- Vue 3 Tsx
+- UnoCSS
+- Vue 3 TSX
 - PostCSS
 - Pinia
 
 # Usage
 
-Just use it as a regular template, you can style it in 'configs.json'.
+Just use it as a regular template, you can style it in 'configs.json' and change theme color in `src/styles/index.css`.
 
 ```
 pnpm i
@@ -41,3 +41,9 @@ This template provide a simple debug view for api testing in route `/setup-api`.
 
 ![](https://cdn.jsdelivr.net/gh/Innei/fancy@master/2021/0623195639.png)
 ![](https://cdn.jsdelivr.net/gh/Innei/fancy@master/2021/0623195623.png)
+
+## License
+
+2023 © Innei, Released under the MIT License.
+
+> [Personal Website](https://innei.ren/) · GitHub [@Innei](https://github.com/innei/)

@@ -23,10 +23,10 @@ export default defineComponent({
     const loaded = ref(false)
 
     const preloadImage = () => {
-      const $$ = new Image()
-      $$.src = props.src
+      const $ = new Image()
+      $.src = props.src
 
-      $$.onload = (e) => {
+      $.onload = (e) => {
         loaded.value = true
       }
     }
@@ -50,7 +50,7 @@ export default defineComponent({
 
 <style lang="postcss">
 .avatar {
-  @apply bg-gray$-default inline-block rounded-full relative overflow-hidden select-none;
+  @apply bg-always-gray-400 inline-block rounded-full relative overflow-hidden select-none;
 }
 .avatar img {
   @apply rounded-full h-full max-w-full;

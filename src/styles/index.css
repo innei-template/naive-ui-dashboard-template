@@ -1,12 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap');
+@import './css-var.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body,
 html {
   margin: 0;
   font-size: 14px;
   padding: 0;
-  background-color: #fafafa;
+  background-color: theme(colors.slate.50);
   font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', sans-serif;
+
+  --theme-color: theme("colors.blue.500");
+  --theme-hover-color: theme('colors.always.sky.400');
+  --theme-active-color: theme('colors.always.sky.500');
+  --theme-suppl-color: theme('colors.always.sky.600')
 }
 
 body {
@@ -16,12 +25,12 @@ body {
 }
 
 a {
-  @apply text-primary-default;
+  @apply text-accent;
   text-decoration: none;
 }
 
 a:hover {
-  @apply text-primary-shallow;
+  @apply opacity-80;
 }
 
 button:focus,
@@ -36,7 +45,7 @@ button {
 
 *::-webkit-scrollbar-thumb,
 *::-webkit-scrollbar-thumb:hover {
-  @apply bg-primary-shallow;
+  @apply bg-accent;
 
   background-clip: padding-box;
   border: 3px solid transparent;
@@ -44,11 +53,11 @@ button {
 }
 
 *::-webkit-scrollbar-corner {
-  background: var(--light-bg);
+  background: theme(colors.white)
 }
 
 .n-scrollbar-rail {
-  @apply z-100;
+  @apply z-[100];
 }
 
 .n-message {

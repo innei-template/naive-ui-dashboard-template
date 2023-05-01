@@ -14,7 +14,7 @@
     display: block;
     width: 100%;
     border: none;
-    border-bottom: 1px solid theme(colors.primary.default);
+    border-bottom: 1px solid theme(colors.accent);
   }
   input:focus {
     outline: none;
@@ -37,7 +37,7 @@
   /* active state */
   input:focus ~ label,
   input:valid ~ label {
-    @apply text-primary-deep;
+    @apply text-deep;
 
     top: -20px;
     font-size: 14px;

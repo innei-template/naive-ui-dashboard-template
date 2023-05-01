@@ -1,28 +1,28 @@
-import $RouterView from 'layouts/router-view'
 import { NLayoutContent } from 'naive-ui'
-import { defineComponent, watchEffect } from 'vue'
+import { RESTManager } from 'utils'
+import type { CSSProperties } from 'vue'
+import { computed, defineComponent, watchEffect } from 'vue'
 import { RouterLink } from 'vue-router'
 
-import { useStoreRef } from '~/hooks/use-store-ref'
-import { RESTManager } from '~/utils'
+import $RouterView from '~/layouts/router-view'
 
 import { Sidebar } from '../../components/sidebar'
-import { useUIStore } from '../../stores/ui'
+import { useStoreRef } from '../../hooks/use-store-ref'
+import { UIStore } from '../../stores/ui'
 import styles from './index.module.css'
 
 export const SidebarLayout = defineComponent({
   name: 'SidebarLayout',
 
   setup() {
-    const ui = useStoreRef(useUIStore)
+    const ui = useStoreRef(UIStore)
 
-    const collapse = ui.sidebarCollapse
+    const { meta, b } = useMagicKeys()
     watchEffect(() => {
-      // console.log(ui.viewport)
-      collapse.value = ui.viewport.value.mobile ? true : false
+      if (meta.value && b.value) {
+        collapse.value = !collapse.value
+      }
     })
-
-    const sidebarWidth = ui.sidebarWidth
 
     const isInApiDebugMode =
       localStorage.getItem('__api') ||
@@ -30,20 +30,26 @@ export const SidebarLayout = defineComponent({
       new URLSearchParams(location.search).get('__api') ||
       new URLSearchParams(location.search).get('__gateway')
 
+    const collapse = ui.sidebarCollapse
     const isLaptop = computed(
       () => ui.viewport.value.mobile || ui.viewport.value.pad,
     )
+    watchEffect(() => {
+      collapse.value = isLaptop.value ? true : false
+    })
+
+    const sidebarWidth = ui.sidebarWidth
 
     return () => (
       <div class={styles['root']}>
         {isInApiDebugMode && (
           <div
-            class="h-[40px] fixed top-0 left-0 right-0 bg-dark-800 z-2 text-gray-400 flex items-center transition-all duration-300 whitespace-pre"
+            class="h-[40px] fixed top-0 left-0 right-0 bg-dark-800 z-2 text-gray-400 flex items-center transition-all duration-500 whitespace-pre"
             style={{
-              paddingLeft: !collapse.value ? '270px' : '120px',
+              paddingLeft: !collapse.value ? '270px' : '80px',
             }}
           >
-            Current in api custom pointing mode, please check:{' '}
+            You are in customizing the API endpoint mode, please check:{' '}
             <RouterLink to={'/setup-api'}>setup-api</RouterLink>. Endpoint:{' '}
             {RESTManager.endpoint}
           </div>
@@ -60,11 +66,14 @@ export const SidebarLayout = defineComponent({
           embedded
           nativeScrollbar={false}
           class={styles['content']}
-          style={{
-            left: !collapse.value ? `${sidebarWidth.value}px` : '100px',
-            pointerEvents: isLaptop.value && !collapse.value ? 'none' : 'auto',
-            top: isInApiDebugMode && '40px',
-          }}
+          style={
+            {
+              left: !collapse.value ? `${sidebarWidth.value}px` : '50px',
+              pointerEvents:
+                isLaptop.value && !collapse.value ? 'none' : 'auto',
+              top: isInApiDebugMode && '40px',
+            } as CSSProperties
+          }
         >
           <$RouterView />
         </NLayoutContent>
