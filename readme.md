@@ -2,7 +2,7 @@
 
 This template is taken from [Mx Space Admin v2](https://github.com/mx-space/mx-admin) and styled the same way.
 
-- UnoCSS
+- TailwindCSS
 - Vue 3 TSX
 - PostCSS
 - Pinia
