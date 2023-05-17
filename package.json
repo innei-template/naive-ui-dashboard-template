@@ -22,7 +22,7 @@
     "vue-router": "4.1.6"
   },
   "devDependencies": {
-    "@iconify/json": "2.2.65",
+    "@iconify/json": "2.2.66",
     "@iconify/tailwind": "0.1.2",
     "@innei/eslint-config-ts": "0.9.10",
     "@innei/prettier": "0.9.11",
