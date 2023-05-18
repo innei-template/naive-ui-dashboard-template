@@ -42,7 +42,7 @@
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4",
     "unplugin-auto-import": "0.15.3",
-    "vite": "4.3.7",
+    "vite": "4.3.8",
     "vite-plugin-checker": "0.6.0",
     "vite-plugin-windicss": "1.8.10",
     "vite-tsconfig-paths": "4.2.0",
