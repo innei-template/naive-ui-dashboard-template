@@ -1,18 +1,17 @@
+import type { GlobalThemeOverrides } from 'naive-ui'
 import {
-  GlobalThemeOverrides,
+  darkTheme,
+  dateZhCN,
   NConfigProvider,
   NDialogProvider,
   NMessageProvider,
   NNotificationProvider,
-  darkTheme,
-  dateZhCN,
   useMessage,
   useNotification,
   zhCN,
 } from 'naive-ui'
 import { defineComponent, onMounted } from 'vue'
 import { RouterView } from 'vue-router'
-
 import { useStoreRef } from './hooks/use-store-ref'
 import { useUIStore } from './stores/ui'
 import { useUserStore } from './stores/user'

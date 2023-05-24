@@ -1,21 +1,16 @@
 import { NDataTable } from 'naive-ui'
 import type {
+  dataTableProps,
   RowKey,
   SortState,
   TableColumns,
-  dataTableProps,
 } from 'naive-ui/lib/data-table/src/interface'
 import { useUIStore } from 'stores/ui'
 import type { Ref } from 'vue'
 import { defineComponent, reactive, ref, watch } from 'vue'
 import type { LocationQueryValue } from 'vue-router'
 import { onBeforeRouteUpdate, useRoute, useRouter } from 'vue-router'
-
 import { useStoreRef } from '~/hooks/use-store-ref'
-
-import styles from './index.module.css'
-
-export const tableRowStyle = styles['table-row']
 
 const TableProps = [
   'data',
@@ -115,7 +110,7 @@ export const Table = defineComponent<ITable>((props) => {
         checkedRowKeys.value = keys
         onUpdateCheckedRowKeys?.(keys as any)
       }}
-      rowClassName={() => styles['table-row']}
+      rowClassName={() => 'py-7 text-xs leading-normal'}
       onUpdateSorter={async (status: any) => {
         if (!status) {
           return
@@ -149,4 +144,5 @@ export const Table = defineComponent<ITable>((props) => {
     ></NDataTable>
   )
 })
+// @ts-ignore
 Table.props = TableProps
