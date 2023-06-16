@@ -15,20 +15,20 @@
     "js-cookie": "3.0.5",
     "lodash-es": "4.17.21",
     "naive-ui": "2.34.4",
-    "pinia": "2.1.3",
+    "pinia": "2.1.4",
     "qier-progress": "1.0.4",
     "umi-request": "1.4.0",
     "vue": "3.3.4",
     "vue-router": "4.2.2"
   },
   "devDependencies": {
-    "@iconify/json": "2.2.76",
+    "@iconify/json": "2.2.79",
     "@iconify/tailwind": "0.1.3",
     "@innei/eslint-config-ts": "0.10.1",
     "@innei/prettier": "0.10.1",
     "@types/lodash-es": "4.17.7",
-    "@typescript-eslint/eslint-plugin": "5.59.9",
-    "@typescript-eslint/parser": "5.59.9",
+    "@typescript-eslint/eslint-plugin": "5.59.11",
+    "@typescript-eslint/parser": "5.59.11",
     "@vitejs/plugin-vue": "4.2.3",
     "@vitejs/plugin-vue-jsx": "3.0.1",
     "@vue/compiler-sfc": "3.3.4",
@@ -38,7 +38,7 @@
     "postcss": "8.4.24",
     "postcss-import": "15.1.0",
     "prettier": "2.8.8",
-    "rollup-plugin-visualizer": "5.9.0",
+    "rollup-plugin-visualizer": "5.9.2",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.3",
     "unplugin-auto-import": "0.16.4",
@@ -46,7 +46,7 @@
     "vite-plugin-checker": "0.6.0",
     "vite-plugin-windicss": "1.9.0",
     "vite-tsconfig-paths": "4.2.0",
-    "vue-eslint-parser": "9.3.0",
+    "vue-eslint-parser": "9.3.1",
     "windicss": "3.5.6"
   }
 }
