@@ -19,7 +19,7 @@
     "qier-progress": "1.0.4",
     "umi-request": "1.4.0",
     "vue": "3.3.4",
-    "vue-router": "4.2.3"
+    "vue-router": "4.2.4"
   },
   "devDependencies": {
     "@iconify/json": "2.2.87",
@@ -35,7 +35,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.42.0",
     "eslint-plugin-vue": "9.14.1",
-    "postcss": "8.4.24",
+    "postcss": "8.4.25",
     "postcss-import": "15.1.0",
     "prettier": "3.0.0",
     "rollup-plugin-visualizer": "5.9.2",
