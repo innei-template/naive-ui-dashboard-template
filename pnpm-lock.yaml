@@ -41,8 +41,8 @@ dependencies:
 
 devDependencies:
   '@iconify/json':
-    specifier: 2.2.86
-    version: 2.2.86
+    specifier: 2.2.87
+    version: 2.2.87
   '@iconify/tailwind':
     specifier: 0.1.3
     version: 0.1.3
@@ -793,11 +793,11 @@ packages:
       - supports-color
     dev: true
 
-  /@iconify/json@2.2.86:
-    resolution: {integrity: sha512-cWnPLZiNjdA2bd89/utvZ69NfgcR3Coqcxbg+BipPGI0P4IkdwuRgWJ7OhNML9rEhZlveee6xjOYUSVR66+ytQ==}
+  /@iconify/json@2.2.87:
+    resolution: {integrity: sha512-sIFqYdTa5St7yjCHQ8wxgugNFVSjcboEOErf2ouxMGg8OACj/r+X6RXqIm+Y2OzEtjVnz6pR2WwlSbFPrijhGQ==}
     dependencies:
       '@iconify/types': 2.0.0
-      pathe: 1.1.0
+      pathe: 1.1.1
     dev: true
 
   /@iconify/tailwind@0.1.3:
@@ -3145,10 +3145,6 @@ packages:
   /path-type@4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
-    dev: true
-
-  /pathe@1.1.0:
-    resolution: {integrity: sha512-ODbEPR0KKHqECXW1GoxdDb+AZvULmXjVPy4rt+pGo2+TnjJTIPJQSVS6N63n8T2Ip+syHhbn52OewKicV0373w==}
     dev: true
 
   /pathe@1.1.1:
