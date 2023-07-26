@@ -15,7 +15,7 @@
     "js-cookie": "3.0.5",
     "lodash-es": "4.17.21",
     "naive-ui": "2.34.4",
-    "pinia": "2.1.4",
+    "pinia": "2.1.6",
     "qier-progress": "1.0.4",
     "umi-request": "1.4.0",
     "vue": "3.3.4",
