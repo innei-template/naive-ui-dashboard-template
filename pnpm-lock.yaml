@@ -77,8 +77,8 @@ devDependencies:
     specifier: 8.46.0
     version: 8.46.0
   eslint-plugin-vue:
-    specifier: 9.16.0
-    version: 9.16.0(eslint@8.46.0)
+    specifier: 9.16.1
+    version: 9.16.1(eslint@8.46.0)
   postcss:
     specifier: 8.4.27
     version: 8.4.27
@@ -2044,8 +2044,8 @@ packages:
       eslint-rule-composer: 0.3.0
     dev: true
 
-  /eslint-plugin-vue@9.16.0(eslint@8.46.0):
-    resolution: {integrity: sha512-SonAuvQXFm9HBV9ww/YkYZVYPMR8ptxxuJwcKGnG9A65SyvNANP9MKlfnC49L6DIwt/YEQZwZWEMHOkL1d5s1A==}
+  /eslint-plugin-vue@9.16.1(eslint@8.46.0):
+    resolution: {integrity: sha512-2FtnTqazA6aYONfDuOZTk0QzwhAwi7Z4+uJ7+GHeGxcKapjqWlDsRWDenvyG/utyOfAS5bVRmAG3cEWiYEz2bA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
@@ -3201,7 +3201,7 @@ packages:
       postcss: ^8.2.14
     dependencies:
       postcss: 8.4.27
-      postcss-selector-parser: 6.0.12
+      postcss-selector-parser: 6.0.13
     dev: true
 
   /postcss-selector-parser@6.0.12:
