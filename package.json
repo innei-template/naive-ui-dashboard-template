@@ -44,7 +44,7 @@
     "unplugin-auto-import": "0.16.6",
     "vite": "4.4.9",
     "vite-plugin-checker": "0.6.1",
-    "vite-plugin-windicss": "1.9.0",
+    "vite-plugin-windicss": "1.9.1",
     "vite-tsconfig-paths": "4.2.0",
     "vue-eslint-parser": "9.3.1",
     "windicss": "3.5.6"
