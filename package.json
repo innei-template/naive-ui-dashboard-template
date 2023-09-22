@@ -19,10 +19,10 @@
     "qier-progress": "1.0.4",
     "umi-request": "1.4.0",
     "vue": "3.3.4",
-    "vue-router": "4.2.4"
+    "vue-router": "4.2.5"
   },
   "devDependencies": {
-    "@iconify/json": "2.2.118",
+    "@iconify/json": "2.2.119",
     "@iconify/tailwind": "0.1.3",
     "@innei/eslint-config-ts": "0.11.1",
     "@innei/prettier": "0.11.1",
