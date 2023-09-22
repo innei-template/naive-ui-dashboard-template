@@ -33,7 +33,7 @@
     "@vitejs/plugin-vue-jsx": "3.0.2",
     "@vue/compiler-sfc": "3.3.4",
     "autoprefixer": "10.4.16",
-    "eslint": "8.49.0",
+    "eslint": "8.50.0",
     "eslint-plugin-vue": "9.17.0",
     "postcss": "8.4.30",
     "postcss-import": "15.1.0",
