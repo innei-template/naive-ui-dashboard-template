@@ -35,7 +35,7 @@
     "autoprefixer": "10.4.16",
     "eslint": "8.50.0",
     "eslint-plugin-vue": "9.17.0",
-    "postcss": "8.4.30",
+    "postcss": "8.4.31",
     "postcss-import": "15.1.0",
     "prettier": "3.0.3",
     "rollup-plugin-visualizer": "5.9.2",
