@@ -53,8 +53,8 @@ devDependencies:
     specifier: 0.11.1
     version: 0.11.1(@vue/compiler-sfc@3.3.8)
   '@types/lodash-es':
-    specifier: 4.17.10
-    version: 4.17.10
+    specifier: 4.17.11
+    version: 4.17.11
   '@typescript-eslint/eslint-plugin':
     specifier: 6.7.5
     version: 6.7.5(@typescript-eslint/parser@6.7.5)(eslint@8.50.0)(typescript@5.2.2)
@@ -1050,8 +1050,8 @@ packages:
     resolution: {integrity: sha512-+2FW2CcT0K3P+JMR8YG846bmDwplKUTsWgT2ENwdQ1UdVfRk3GQrh6Mi4sTopy30gI8Uau5CEqHTDZ6YvWIUPA==}
     dev: false
 
-  /@types/lodash-es@4.17.10:
-    resolution: {integrity: sha512-YJP+w/2khSBwbUSFdGsSqmDvmnN3cCKoPOL7Zjle6s30ZtemkkqhjVfFqGwPN7ASil5VyjE2GtyU/yqYY6mC0A==}
+  /@types/lodash-es@4.17.11:
+    resolution: {integrity: sha512-eCw8FYAWHt2DDl77s+AMLLzPn310LKohruumpucZI4oOFJkIgnlaJcy23OKMJxx4r9PeTF13Gv6w+jqjWQaYUg==}
     dependencies:
       '@types/lodash': 4.14.194
 
@@ -3009,7 +3009,7 @@ packages:
       '@css-render/vue3-ssr': 0.15.12(vue@3.3.8)
       '@types/katex': 0.14.0
       '@types/lodash': 4.14.194
-      '@types/lodash-es': 4.17.10
+      '@types/lodash-es': 4.17.11
       async-validator: 4.2.5
       css-render: 0.15.12
       date-fns: 2.30.0

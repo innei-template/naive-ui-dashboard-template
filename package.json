@@ -26,7 +26,7 @@
     "@iconify/tailwind": "0.1.3",
     "@innei/eslint-config-ts": "0.11.1",
     "@innei/prettier": "0.11.1",
-    "@types/lodash-es": "4.17.10",
+    "@types/lodash-es": "4.17.11",
     "@typescript-eslint/eslint-plugin": "6.7.5",
     "@typescript-eslint/parser": "6.7.5",
     "@vitejs/plugin-vue": "4.3.4",
