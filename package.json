@@ -26,7 +26,7 @@
     "@iconify/tailwind": "0.1.3",
     "@innei/eslint-config-ts": "0.11.1",
     "@innei/prettier": "0.11.1",
-    "@types/lodash-es": "4.17.11",
+    "@types/lodash-es": "4.17.12",
     "@typescript-eslint/eslint-plugin": "6.7.5",
     "@typescript-eslint/parser": "6.7.5",
     "@vitejs/plugin-vue": "4.3.4",
@@ -44,7 +44,7 @@
     "unplugin-auto-import": "0.16.7",
     "vite": "4.4.11",
     "vite-plugin-checker": "0.6.2",
-    "vite-plugin-windicss": "1.9.1",
+    "vite-plugin-windicss": "1.9.2",
     "vite-tsconfig-paths": "4.2.1",
     "vue-eslint-parser": "9.3.2",
     "windicss": "3.5.6"
