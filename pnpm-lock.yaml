@@ -41,8 +41,8 @@ dependencies:
 
 devDependencies:
   '@iconify/json':
-    specifier: 2.2.155
-    version: 2.2.155
+    specifier: 2.2.156
+    version: 2.2.156
   '@iconify/tailwind':
     specifier: 0.1.4
     version: 0.1.4
@@ -897,8 +897,8 @@ packages:
       - supports-color
     dev: true
 
-  /@iconify/json@2.2.155:
-    resolution: {integrity: sha512-g6TFizLkeEIBRfwV4hoYVMLmbW3cOFmBVOCi9bq3ZUagSSypVGCNx6SgBn+Izv6IWLsH4SL3+zU5ZYh9bcSrCQ==}
+  /@iconify/json@2.2.156:
+    resolution: {integrity: sha512-vt6kTWozMWzz9aBeDi0yA4ChUVv99xrjijp2UJmd6kQvX8pUcGMBCdW/DekTcymCgi506DJUvkyNBjmIdKS1uw==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.1
