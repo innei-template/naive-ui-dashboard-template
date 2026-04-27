@@ -18,8 +18,8 @@ dependencies:
     specifier: 3.0.5
     version: 3.0.5
   lodash-es:
-    specifier: 4.17.21
-    version: 4.17.21
+    specifier: 4.18.1
+    version: 4.18.1
   naive-ui:
     specifier: 2.34.4
     version: 2.34.4(vue@3.3.11)
@@ -2898,8 +2898,8 @@ packages:
       p-locate: 5.0.0
     dev: true
 
-  /lodash-es@4.17.21:
-    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+  /lodash-es@4.18.1:
+    resolution: {integrity: sha512-J8xewKD/Gk22OZbhpOVSwcs60zhd95ESDwezOFuA3/099925PdHJ7OFHNTGtajL3AlZkykD32HykiMo+BIBI8A==}
     dev: false
 
   /lodash.debounce@4.0.8:
@@ -3013,7 +3013,7 @@ packages:
       evtd: 0.2.4
       highlight.js: 11.8.0
       lodash: 4.17.21
-      lodash-es: 4.17.21
+      lodash-es: 4.18.1
       seemly: 0.3.6
       treemate: 0.3.11
       vdirs: 0.1.8(vue@3.3.11)
